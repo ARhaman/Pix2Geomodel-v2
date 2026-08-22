@@ -1,0 +1,153 @@
+Task,Class,Direction,Field,Mean area fraction,Indicator h50 (cells),Resolved,Relative nugget gamma(1)/sill
+porosity_to_facies,Tight,0 (along grid j),reference,0.0757,11.50,yes,0.167
+porosity_to_facies,Tight,0 (along grid j),prediction,0.0296,9.90,yes,0.209
+porosity_to_facies,Tight,45 (diagonal),reference,0.0757,10.00,yes,0.171
+porosity_to_facies,Tight,45 (diagonal),prediction,0.0296,9.61,yes,0.211
+porosity_to_facies,Tight,90 (along grid i),reference,0.0757,14.15,yes,0.155
+porosity_to_facies,Tight,90 (along grid i),prediction,0.0296,13.15,yes,0.216
+porosity_to_facies,Tight,135 (anti-diagonal),reference,0.0757,19.51,yes,0.150
+porosity_to_facies,Tight,135 (anti-diagonal),prediction,0.0296,14.44,yes,0.208
+porosity_to_facies,Very Poor Sand,0 (along grid j),reference,0.0396,1.27,yes,0.469
+porosity_to_facies,Very Poor Sand,45 (diagonal),reference,0.0396,1.25,yes,0.468
+porosity_to_facies,Very Poor Sand,90 (along grid i),reference,0.0396,1.64,yes,0.436
+porosity_to_facies,Very Poor Sand,135 (anti-diagonal),reference,0.0396,1.78,yes,0.422
+porosity_to_facies,Poor Sand,0 (along grid j),reference,0.1293,4.81,yes,0.283
+porosity_to_facies,Poor Sand,0 (along grid j),prediction,0.1065,7.41,yes,0.207
+porosity_to_facies,Poor Sand,45 (diagonal),reference,0.1293,4.62,yes,0.288
+porosity_to_facies,Poor Sand,45 (diagonal),prediction,0.1065,6.26,yes,0.210
+porosity_to_facies,Poor Sand,90 (along grid i),reference,0.1293,6.84,yes,0.263
+porosity_to_facies,Poor Sand,90 (along grid i),prediction,0.1065,11.19,yes,0.187
+porosity_to_facies,Poor Sand,135 (anti-diagonal),reference,0.1293,7.72,yes,0.255
+porosity_to_facies,Poor Sand,135 (anti-diagonal),prediction,0.1065,10.47,yes,0.191
+porosity_to_facies,Fair Sand,0 (along grid j),prediction,0.0325,1.00,no (nugget-dominated),0.784
+porosity_to_facies,Fair Sand,45 (diagonal),prediction,0.0325,1.00,no (nugget-dominated),0.813
+porosity_to_facies,Fair Sand,90 (along grid i),prediction,0.0325,1.00,no (nugget-dominated),0.769
+porosity_to_facies,Fair Sand,135 (anti-diagonal),prediction,0.0325,1.00,yes,0.653
+porosity_to_facies,Good Sand,0 (along grid j),reference,0.2549,3.38,yes,0.310
+porosity_to_facies,Good Sand,0 (along grid j),prediction,0.3617,8.76,yes,0.214
+porosity_to_facies,Good Sand,45 (diagonal),reference,0.2549,3.14,yes,0.316
+porosity_to_facies,Good Sand,45 (diagonal),prediction,0.3617,7.90,yes,0.220
+porosity_to_facies,Good Sand,90 (along grid i),reference,0.2549,4.63,yes,0.286
+porosity_to_facies,Good Sand,90 (along grid i),prediction,0.3617,12.62,yes,0.212
+porosity_to_facies,Good Sand,135 (anti-diagonal),reference,0.2549,4.97,yes,0.279
+porosity_to_facies,Good Sand,135 (anti-diagonal),prediction,0.3617,11.64,yes,0.213
+porosity_to_facies,Good Clean Sand,0 (along grid j),reference,0.0061,1.00,yes,0.621
+porosity_to_facies,Good Clean Sand,0 (along grid j),prediction,0.0086,1.00,no (nugget-dominated),0.813
+porosity_to_facies,Good Clean Sand,45 (diagonal),reference,0.0061,1.00,yes,0.619
+porosity_to_facies,Good Clean Sand,45 (diagonal),prediction,0.0086,1.00,no (nugget-dominated),0.786
+porosity_to_facies,Good Clean Sand,90 (along grid i),reference,0.0061,1.00,yes,0.592
+porosity_to_facies,Good Clean Sand,90 (along grid i),prediction,0.0086,1.00,no (nugget-dominated),0.773
+porosity_to_facies,Good Clean Sand,135 (anti-diagonal),reference,0.0061,1.00,yes,0.567
+porosity_to_facies,Good Clean Sand,135 (anti-diagonal),prediction,0.0086,1.00,no (nugget-dominated),0.813
+porosity_to_facies,Very Good Sand,0 (along grid j),reference,0.4941,11.36,yes,0.170
+porosity_to_facies,Very Good Sand,0 (along grid j),prediction,0.4579,11.14,yes,0.184
+porosity_to_facies,Very Good Sand,45 (diagonal),reference,0.4941,11.11,yes,0.174
+porosity_to_facies,Very Good Sand,45 (diagonal),prediction,0.4579,11.96,yes,0.187
+porosity_to_facies,Very Good Sand,90 (along grid i),reference,0.4941,15.73,yes,0.156
+porosity_to_facies,Very Good Sand,90 (along grid i),prediction,0.4579,18.94,yes,0.172
+porosity_to_facies,Very Good Sand,135 (anti-diagonal),reference,0.4941,16.37,yes,0.153
+porosity_to_facies,Very Good Sand,135 (anti-diagonal),prediction,0.4579,16.33,yes,0.165
+permeability_to_facies,Tight,0 (along grid j),reference,0.0757,11.50,yes,0.167
+permeability_to_facies,Tight,0 (along grid j),prediction,0.0786,8.05,yes,0.247
+permeability_to_facies,Tight,45 (diagonal),reference,0.0757,10.00,yes,0.171
+permeability_to_facies,Tight,45 (diagonal),prediction,0.0786,5.68,yes,0.248
+permeability_to_facies,Tight,90 (along grid i),reference,0.0757,14.15,yes,0.155
+permeability_to_facies,Tight,90 (along grid i),prediction,0.0786,8.74,yes,0.201
+permeability_to_facies,Tight,135 (anti-diagonal),reference,0.0757,19.51,yes,0.150
+permeability_to_facies,Tight,135 (anti-diagonal),prediction,0.0786,10.72,yes,0.230
+permeability_to_facies,Very Poor Sand,0 (along grid j),reference,0.0396,1.27,yes,0.469
+permeability_to_facies,Very Poor Sand,0 (along grid j),prediction,0.0057,1.00,yes,0.526
+permeability_to_facies,Very Poor Sand,45 (diagonal),reference,0.0396,1.25,yes,0.468
+permeability_to_facies,Very Poor Sand,45 (diagonal),prediction,0.0057,1.00,yes,0.540
+permeability_to_facies,Very Poor Sand,90 (along grid i),reference,0.0396,1.64,yes,0.436
+permeability_to_facies,Very Poor Sand,90 (along grid i),prediction,0.0057,1.00,yes,0.507
+permeability_to_facies,Very Poor Sand,135 (anti-diagonal),reference,0.0396,1.78,yes,0.422
+permeability_to_facies,Very Poor Sand,135 (anti-diagonal),prediction,0.0057,1.00,yes,0.523
+permeability_to_facies,Poor Sand,0 (along grid j),reference,0.1293,4.81,yes,0.283
+permeability_to_facies,Poor Sand,0 (along grid j),prediction,0.2036,9.06,yes,0.211
+permeability_to_facies,Poor Sand,45 (diagonal),reference,0.1293,4.62,yes,0.288
+permeability_to_facies,Poor Sand,45 (diagonal),prediction,0.2036,8.30,yes,0.220
+permeability_to_facies,Poor Sand,90 (along grid i),reference,0.1293,6.84,yes,0.263
+permeability_to_facies,Poor Sand,90 (along grid i),prediction,0.2036,12.05,yes,0.189
+permeability_to_facies,Poor Sand,135 (anti-diagonal),reference,0.1293,7.72,yes,0.255
+permeability_to_facies,Poor Sand,135 (anti-diagonal),prediction,0.2036,12.03,yes,0.203
+permeability_to_facies,Fair Sand,0 (along grid j),prediction,0.0334,1.00,no (nugget-dominated),0.812
+permeability_to_facies,Fair Sand,45 (diagonal),prediction,0.0334,1.00,no (nugget-dominated),0.831
+permeability_to_facies,Fair Sand,90 (along grid i),prediction,0.0334,1.00,no (nugget-dominated),0.765
+permeability_to_facies,Fair Sand,135 (anti-diagonal),prediction,0.0334,1.00,no (nugget-dominated),0.794
+permeability_to_facies,Good Sand,0 (along grid j),reference,0.2549,3.38,yes,0.310
+permeability_to_facies,Good Sand,0 (along grid j),prediction,0.0888,1.71,yes,0.428
+permeability_to_facies,Good Sand,45 (diagonal),reference,0.2549,3.14,yes,0.316
+permeability_to_facies,Good Sand,45 (diagonal),prediction,0.0888,1.62,yes,0.446
+permeability_to_facies,Good Sand,90 (along grid i),reference,0.2549,4.63,yes,0.286
+permeability_to_facies,Good Sand,90 (along grid i),prediction,0.0888,2.00,yes,0.413
+permeability_to_facies,Good Sand,135 (anti-diagonal),reference,0.2549,4.97,yes,0.279
+permeability_to_facies,Good Sand,135 (anti-diagonal),prediction,0.0888,1.94,yes,0.424
+permeability_to_facies,Good Clean Sand,0 (along grid j),reference,0.0061,1.00,yes,0.621
+permeability_to_facies,Good Clean Sand,0 (along grid j),prediction,0.0563,1.00,yes,0.557
+permeability_to_facies,Good Clean Sand,45 (diagonal),reference,0.0061,1.00,yes,0.619
+permeability_to_facies,Good Clean Sand,45 (diagonal),prediction,0.0563,1.00,yes,0.564
+permeability_to_facies,Good Clean Sand,90 (along grid i),reference,0.0061,1.00,yes,0.592
+permeability_to_facies,Good Clean Sand,90 (along grid i),prediction,0.0563,1.38,yes,0.458
+permeability_to_facies,Good Clean Sand,135 (anti-diagonal),reference,0.0061,1.00,yes,0.567
+permeability_to_facies,Good Clean Sand,135 (anti-diagonal),prediction,0.0563,1.00,yes,0.525
+permeability_to_facies,Very Good Sand,0 (along grid j),reference,0.4941,11.36,yes,0.170
+permeability_to_facies,Very Good Sand,0 (along grid j),prediction,0.5336,16.37,yes,0.154
+permeability_to_facies,Very Good Sand,45 (diagonal),reference,0.4941,11.11,yes,0.174
+permeability_to_facies,Very Good Sand,45 (diagonal),prediction,0.5336,13.95,yes,0.161
+permeability_to_facies,Very Good Sand,90 (along grid i),reference,0.4941,15.73,yes,0.156
+permeability_to_facies,Very Good Sand,90 (along grid i),prediction,0.5336,18.70,yes,0.149
+permeability_to_facies,Very Good Sand,135 (anti-diagonal),reference,0.4941,16.37,yes,0.153
+permeability_to_facies,Very Good Sand,135 (anti-diagonal),prediction,0.5336,20.85,yes,0.157
+vcl_to_facies,Tight,0 (along grid j),reference,0.0757,11.50,yes,0.167
+vcl_to_facies,Tight,0 (along grid j),prediction,0.0810,9.99,yes,0.179
+vcl_to_facies,Tight,45 (diagonal),reference,0.0757,10.00,yes,0.171
+vcl_to_facies,Tight,45 (diagonal),prediction,0.0810,8.79,yes,0.193
+vcl_to_facies,Tight,90 (along grid i),reference,0.0757,14.15,yes,0.155
+vcl_to_facies,Tight,90 (along grid i),prediction,0.0810,12.39,yes,0.159
+vcl_to_facies,Tight,135 (anti-diagonal),reference,0.0757,19.51,yes,0.150
+vcl_to_facies,Tight,135 (anti-diagonal),prediction,0.0810,16.27,yes,0.157
+vcl_to_facies,Very Poor Sand,0 (along grid j),reference,0.0396,1.27,yes,0.469
+vcl_to_facies,Very Poor Sand,0 (along grid j),prediction,0.0251,1.00,yes,0.600
+vcl_to_facies,Very Poor Sand,45 (diagonal),reference,0.0396,1.25,yes,0.468
+vcl_to_facies,Very Poor Sand,45 (diagonal),prediction,0.0251,1.00,yes,0.644
+vcl_to_facies,Very Poor Sand,90 (along grid i),reference,0.0396,1.64,yes,0.436
+vcl_to_facies,Very Poor Sand,90 (along grid i),prediction,0.0251,1.00,yes,0.567
+vcl_to_facies,Very Poor Sand,135 (anti-diagonal),reference,0.0396,1.78,yes,0.422
+vcl_to_facies,Very Poor Sand,135 (anti-diagonal),prediction,0.0251,1.00,yes,0.544
+vcl_to_facies,Poor Sand,0 (along grid j),reference,0.1293,4.81,yes,0.283
+vcl_to_facies,Poor Sand,0 (along grid j),prediction,0.1670,5.66,yes,0.271
+vcl_to_facies,Poor Sand,45 (diagonal),reference,0.1293,4.62,yes,0.288
+vcl_to_facies,Poor Sand,45 (diagonal),prediction,0.1670,5.47,yes,0.297
+vcl_to_facies,Poor Sand,90 (along grid i),reference,0.1293,6.84,yes,0.263
+vcl_to_facies,Poor Sand,90 (along grid i),prediction,0.1670,8.00,yes,0.263
+vcl_to_facies,Poor Sand,135 (anti-diagonal),reference,0.1293,7.72,yes,0.255
+vcl_to_facies,Poor Sand,135 (anti-diagonal),prediction,0.1670,8.81,yes,0.243
+vcl_to_facies,Fair Sand,0 (along grid j),prediction,0.0061,1.00,no (nugget-dominated),0.939
+vcl_to_facies,Fair Sand,45 (diagonal),prediction,0.0061,1.00,no (nugget-dominated),0.941
+vcl_to_facies,Fair Sand,90 (along grid i),prediction,0.0061,1.00,no (nugget-dominated),0.910
+vcl_to_facies,Fair Sand,135 (anti-diagonal),prediction,0.0061,1.00,no (nugget-dominated),0.931
+vcl_to_facies,Good Sand,0 (along grid j),reference,0.2549,3.38,yes,0.310
+vcl_to_facies,Good Sand,0 (along grid j),prediction,0.2439,2.94,yes,0.316
+vcl_to_facies,Good Sand,45 (diagonal),reference,0.2549,3.14,yes,0.316
+vcl_to_facies,Good Sand,45 (diagonal),prediction,0.2439,2.64,yes,0.343
+vcl_to_facies,Good Sand,90 (along grid i),reference,0.2549,4.63,yes,0.286
+vcl_to_facies,Good Sand,90 (along grid i),prediction,0.2439,3.95,yes,0.296
+vcl_to_facies,Good Sand,135 (anti-diagonal),reference,0.2549,4.97,yes,0.279
+vcl_to_facies,Good Sand,135 (anti-diagonal),prediction,0.2439,4.24,yes,0.279
+vcl_to_facies,Good Clean Sand,0 (along grid j),reference,0.0061,1.00,yes,0.621
+vcl_to_facies,Good Clean Sand,0 (along grid j),prediction,0.0219,1.00,yes,0.713
+vcl_to_facies,Good Clean Sand,45 (diagonal),reference,0.0061,1.00,yes,0.619
+vcl_to_facies,Good Clean Sand,45 (diagonal),prediction,0.0219,1.00,yes,0.724
+vcl_to_facies,Good Clean Sand,90 (along grid i),reference,0.0061,1.00,yes,0.592
+vcl_to_facies,Good Clean Sand,90 (along grid i),prediction,0.0219,1.00,yes,0.652
+vcl_to_facies,Good Clean Sand,135 (anti-diagonal),reference,0.0061,1.00,yes,0.567
+vcl_to_facies,Good Clean Sand,135 (anti-diagonal),prediction,0.0219,1.00,yes,0.672
+vcl_to_facies,Very Good Sand,0 (along grid j),reference,0.4941,11.36,yes,0.170
+vcl_to_facies,Very Good Sand,0 (along grid j),prediction,0.4550,12.32,yes,0.159
+vcl_to_facies,Very Good Sand,45 (diagonal),reference,0.4941,11.11,yes,0.174
+vcl_to_facies,Very Good Sand,45 (diagonal),prediction,0.4550,12.26,yes,0.166
+vcl_to_facies,Very Good Sand,90 (along grid i),reference,0.4941,15.73,yes,0.156
+vcl_to_facies,Very Good Sand,90 (along grid i),prediction,0.4550,17.57,yes,0.146
+vcl_to_facies,Very Good Sand,135 (anti-diagonal),reference,0.4941,16.37,yes,0.153
+vcl_to_facies,Very Good Sand,135 (anti-diagonal),prediction,0.4550,17.57,yes,0.146

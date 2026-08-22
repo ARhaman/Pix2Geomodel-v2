@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+checkpoints/
+logs/
+export_v2/
+splits_v2/*/train/
+splits_v2/*/val/
+splits_v2/*/test/
+*.h5
+*.ckpt*
+.DS_Store

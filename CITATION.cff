@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Pix2Geomodel v2 — leakage-free benchmarking of conditional GANs for facies–property translation"
+message: "If you use this software, please cite the accompanying article."
+type: software
+authors:
+  - family-names: Al-Fakih
+    given-names: Abdulrahman
+  - family-names: Saraih
+    given-names: Nabil
+  - family-names: Koeshidayatullah
+    given-names: Ardiansyah
+  - family-names: Hanafy
+    given-names: Sherif
+  - family-names: Kaka
+    given-names: SanLinn I.
+license: MIT
+repository-code: "https://github.com/ARhaman/Pix2Geomodel-v2"
