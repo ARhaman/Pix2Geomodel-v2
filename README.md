@@ -1,4 +1,4 @@
-# Pix2Geomodel v2 — leakage-free benchmarking of conditional GANs for facies–property translation
+# Pix2Geomodel v2 — Conditional GANs and Conventional Baselines for Bidirectional Facies–Property Translation in a Faulted Cretaceous Reservoir
 
 Code, split definitions, evaluation scripts and result files for:
 
