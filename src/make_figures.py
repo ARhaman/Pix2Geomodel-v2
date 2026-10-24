@@ -28,8 +28,9 @@ os.makedirs(OUT, exist_ok=True)
 
 # Validated categorical slots, fixed order.
 C1, C2, C3, C4 = "#2a78d6", "#eb6834", "#1baf7a", "#eda100"
+C5 = "#8a8a86"
 INK, INK2, GRID = "#0b0b0b", "#52514e", "#d8d8d4"
-HATCH = ["", "///", "...", "xxx"]
+HATCH = ["", "///", "...", "xxx", "\\\\\\"]
 LBL = 6.4
 
 plt.rcParams.update({
@@ -120,11 +121,23 @@ def fig_benchmark():
          "Macro-F1", (0, 0.95), label_rot=90)
     axes[1].set_title("(b) Inverse — macro-F1", fontsize=8, pad=6)
 
+    # Forward panel, revision round. Every value is the LAYERWISE R2 of
+    # Table 7, so the network and the baselines are on one convention. The
+    # random forest and the class-median lookup are shown because on log10
+    # permeability the median lookup (0.091) is the strongest baseline, ahead
+    # of the forest (0.068); plotting only the class mean would understate the
+    # baseline the network has to beat.
     ftasks = ["VCL", "Porosity", "Permeability\n(log₁₀)"]
-    gan_r2 = [0.854, 0.575, 0.165]
-    look_r2 = [0.654, 0.366, 0.175]
-    bars(axes[2], ftasks, ["Pix2Geomodel", "Class-mean lookup"],
-         [gan_r2, look_r2], [C1, C4], "R²", (0, 1.15), label_rot=90)
+    gan_r2 = [0.854, 0.575, 0.113]
+    l1_r2 = [0.861, 0.453, 0.145]
+    mean_r2 = [0.696, 0.146, 0.055]
+    med_r2 = [0.670, 0.144, 0.091]
+    rf_r2 = [0.798, 0.507, 0.068]
+    bars(axes[2], ftasks,
+         ["Pix2Geomodel", "No-adversarial (L1)", "Class-mean lookup",
+          "Class-median lookup", "Random forest"],
+         [gan_r2, l1_r2, mean_r2, med_r2, rf_r2],
+         [C1, C2, C4, C3, C5], "R²", (0, 1.22), label_rot=90)
     axes[2].set_title("(c) Forward — R²", fontsize=8, pad=6)
 
     for ax in axes:
@@ -136,8 +149,9 @@ def fig_benchmark():
             lab.set_rotation(18); lab.set_ha("right")
     axes[0].legend(frameon=False, fontsize=6.2, loc="upper right",
                    handlelength=1.3, borderpad=0.1, handletextpad=0.4)
-    axes[2].legend(frameon=False, fontsize=6.2, loc="upper right",
-                   handlelength=1.3, borderpad=0.1, handletextpad=0.4)
+    axes[2].legend(frameon=False, fontsize=5.4, loc="upper right",
+                   handlelength=1.1, borderpad=0.1, handletextpad=0.3,
+                   labelspacing=0.25)
     fig.tight_layout()
     save(fig, "Fig_A_benchmark")
     LBL = 6.4
@@ -152,30 +166,54 @@ def fig_ceiling():
     fig, axes = plt.subplots(1, 2, figsize=(7.3, 3.1),
                              gridspec_kw={"width_ratios": [1.15, 1.0]})
 
+    # Revision round: the ceiling and the attained value are now on the same
+    # LAYERWISE convention (Table 12), and both carry their dispersion -- eta^2
+    # across the nine layers, R2 across the three seeds. Side-by-side rather
+    # than nested, because on VCL the network now sits slightly ABOVE the
+    # ceiling and a nested bar would overflow its own frame. p is the exact
+    # paired sign-permutation test of the network against the ceiling on those
+    # same nine layers (29_ceiling_test.py): only permeability separates.
     tasks = ["Facies →\nVCL", "Facies →\nPorosity", "Facies → Perm.\n(log$_{10}$)"]
-    ceil = [0.8814, 0.7145, 0.2130]
-    got = [0.8543, 0.5754, 0.1652]
+    ceil = [0.8247, 0.6478, 0.2209]
+    ceil_sd = [0.0388, 0.0607, 0.0879]
+    got = [0.8543, 0.5754, 0.1127]
+    got_sd = [0.0060, 0.0938, 0.0105]
+    pval = [0.434, 0.324, 0.027]
     pct = [100 * g / c for g, c in zip(got, ceil)]
 
     ax = axes[0]
-    xs = range(len(tasks))
-    ax.bar(xs, ceil, 0.62, color="#e8e8e4", edgecolor=INK2, linewidth=0.8,
+    xs = list(range(len(tasks)))
+    w = 0.36
+    ax.bar([x - w / 2 for x in xs], ceil, w, yerr=ceil_sd, capsize=2.4,
+           color="#e8e8e4", edgecolor=INK2, linewidth=0.8,
+           error_kw={"elinewidth": 0.8, "ecolor": INK2},
            label="Ceiling: variance available from facies (η²)")
-    ax.bar(xs, got, 0.62, color=C1, edgecolor="white", linewidth=0.8,
+    ax.bar([x + w / 2 for x in xs], got, w, yerr=got_sd, capsize=2.4,
+           color=C1, edgecolor="white", linewidth=0.8,
+           error_kw={"elinewidth": 0.8, "ecolor": INK2},
            label="Attained by Pix2Geomodel (R²)")
-    for i, (c, g, p_) in enumerate(zip(ceil, got, pct)):
-        ax.annotate("%.3f" % c, (i, c), ha="center", va="bottom",
+    for i, (c, g, sc, sg, p_, pv) in enumerate(
+            zip(ceil, got, ceil_sd, got_sd, pct, pval)):
+        ax.annotate("%.3f" % c, (i - w / 2, c + sc), ha="center", va="bottom",
                     xytext=(0, 2), textcoords="offset points",
                     fontsize=LBL, color=INK2)
-        ax.annotate("%.0f%%" % p_, (i, g / 2), ha="center", va="center",
-                    fontsize=7.4, color="white", weight="bold")
-    ax.set_xticks(list(xs)); ax.set_xticklabels(tasks, fontsize=7.2)
+        ax.annotate("%.3f" % g, (i + w / 2, g + sg), ha="center", va="bottom",
+                    xytext=(0, 2), textcoords="offset points",
+                    fontsize=LBL, color=INK2)
+        ax.annotate("%.0f%%" % p_, (i + w / 2, g / 2), ha="center",
+                    va="center", fontsize=7.2, color="white", weight="bold")
+        ax.annotate("p = %.3f" % pv,
+                    (i, max(c + sc, g + sg) + 0.075), ha="center", va="bottom",
+                    fontsize=6.2,
+                    color=(INK if pv < 0.05 else INK2),
+                    weight=("bold" if pv < 0.05 else "normal"))
+    ax.set_xticks(xs); ax.set_xticklabels(tasks, fontsize=7.2)
     ax.set_ylabel("Fraction of variance")
     ax.set_ylim(0, 1.06)
     ax.grid(axis="x", visible=False)
-    ax.set_title("(a) Attained against available", fontsize=8, pad=6)
-    ax.legend(frameon=False, fontsize=6.2, loc="upper right",
-              handlelength=1.3, borderpad=0.1, handletextpad=0.4)
+    ax.set_title("(a) Attained against available, per layer", fontsize=8, pad=6)
+    ax.legend(frameon=False, fontsize=6.0, loc="upper right",
+              handlelength=1.2, borderpad=0.1, handletextpad=0.35)
 
     ax = axes[1]
     labs = ["Facies class\n(7 classes)", "Porosity\nseptile", "Flow-unit\nseptile"]
@@ -191,7 +229,7 @@ def fig_ceiling():
     ax.set_ylabel("η² of log$_{10}$ permeability")
     ax.set_ylim(0, 0.98)
     ax.grid(axis="x", visible=False)
-    ax.set_title("(b) Which partition organises permeability", fontsize=8, pad=6)
+    ax.set_title("(b) Which partition organises permeability\n(pooled over the held-out interval)", fontsize=8, pad=6)
     fig.tight_layout()
     save(fig, "Fig_E_information_ceiling")
 
