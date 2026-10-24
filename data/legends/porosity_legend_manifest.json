@@ -1,0 +1,509 @@
+{
+  "created_utc": "2026-08-13T14:38:36.280583+00:00",
+  "script": "04_export_common_legend.py",
+  "dataset": "yemen",
+  "property": "porosity",
+  "legend_set": "extended",
+  "legend": {
+    "vmin": 0.0,
+    "vmax": 0.3,
+    "scale": "linear",
+    "unit": "fraction"
+  },
+  "gradient_stops": [
+    [
+      0.0,
+      "#FF00FF"
+    ],
+    [
+      0.1,
+      "#0000FF"
+    ],
+    [
+      0.2,
+      "#00FFFF"
+    ],
+    [
+      0.4,
+      "#00FF00"
+    ],
+    [
+      0.7,
+      "#FFFF00"
+    ],
+    [
+      0.85,
+      "#FFA500"
+    ],
+    [
+      1.0,
+      "#FF0000"
+    ]
+  ],
+  "facies_legend": null,
+  "facies_code_map": null,
+  "lut_size": 255,
+  "background_index": 255,
+  "cube_shape": [
+    365,
+    248,
+    55
+  ],
+  "tiling": null,
+  "saturation": {
+    "n_cells": 3627990,
+    "data_min": 0.080043,
+    "data_max": 0.263072,
+    "legend_min": 0.0,
+    "legend_max": 0.3,
+    "clipped_low": 0,
+    "clipped_low_pct": 0.0,
+    "clipped_high": 0,
+    "clipped_high_pct": 0.0,
+    "clipped_total_pct": 0.0,
+    "exact_zeros": 0,
+    "exact_zeros_pct": 0.0,
+    "zero_class_reserved": false
+  },
+  "quantisation": {
+    "span": 0.3,
+    "ramp_levels": 255,
+    "half_step": 0.0005905511811023622,
+    "max_error_pct_of_range": 0.1968503937007874
+  },
+  "n_images": 54,
+  "records": [
+    {
+      "k": 1,
+      "file": "porosity_layer_1_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 2,
+      "file": "porosity_layer_2_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 3,
+      "file": "porosity_layer_3_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 4,
+      "file": "porosity_layer_4_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 5,
+      "file": "porosity_layer_5_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 6,
+      "file": "porosity_layer_6_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 7,
+      "file": "porosity_layer_7_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 8,
+      "file": "porosity_layer_8_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 9,
+      "file": "porosity_layer_9_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 10,
+      "file": "porosity_layer_10_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 11,
+      "file": "porosity_layer_11_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 12,
+      "file": "porosity_layer_12_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 13,
+      "file": "porosity_layer_13_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 14,
+      "file": "porosity_layer_14_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 15,
+      "file": "porosity_layer_15_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 16,
+      "file": "porosity_layer_16_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 17,
+      "file": "porosity_layer_17_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 18,
+      "file": "porosity_layer_18_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 19,
+      "file": "porosity_layer_19_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 20,
+      "file": "porosity_layer_20_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 21,
+      "file": "porosity_layer_21_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 22,
+      "file": "porosity_layer_22_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 23,
+      "file": "porosity_layer_23_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 24,
+      "file": "porosity_layer_24_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 25,
+      "file": "porosity_layer_25_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 26,
+      "file": "porosity_layer_26_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 27,
+      "file": "porosity_layer_27_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 28,
+      "file": "porosity_layer_28_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 29,
+      "file": "porosity_layer_29_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 30,
+      "file": "porosity_layer_30_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 31,
+      "file": "porosity_layer_31_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 32,
+      "file": "porosity_layer_32_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 33,
+      "file": "porosity_layer_33_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 34,
+      "file": "porosity_layer_34_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 35,
+      "file": "porosity_layer_35_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 36,
+      "file": "porosity_layer_36_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 37,
+      "file": "porosity_layer_37_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 38,
+      "file": "porosity_layer_38_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 39,
+      "file": "porosity_layer_39_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 40,
+      "file": "porosity_layer_40_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 41,
+      "file": "porosity_layer_41_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 42,
+      "file": "porosity_layer_42_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 43,
+      "file": "porosity_layer_43_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 44,
+      "file": "porosity_layer_44_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 45,
+      "file": "porosity_layer_45_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 46,
+      "file": "porosity_layer_46_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 47,
+      "file": "porosity_layer_47_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 48,
+      "file": "porosity_layer_48_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 49,
+      "file": "porosity_layer_49_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 50,
+      "file": "porosity_layer_50_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 51,
+      "file": "porosity_layer_51_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 52,
+      "file": "porosity_layer_52_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 53,
+      "file": "porosity_layer_53_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 54,
+      "file": "porosity_layer_54_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+Item,Value
+Seeds,"1, 2, 3 (independent runs per task)"
+Checkpoint selection,best validation score; validation never used as test
+Split,"blocked by depth, buffer gap, applied BEFORE augmentation"
+Independent test units,9 original layers (never augmented)
+Uncertainty,"clustered bootstrap over layers, 10,000 resamples"
+Task comparison,"paired permutation test at layer level, 10,000 permutations"
+TensorFlow,2.10.1
+NumPy,1.23.5
+Python,3.9.25
+Platform,Windows-10-10.0.26200-SP0
+GPU,"NVIDIA RTX 4500 Ada Generation, 24570 MiB, 596.71"
+Determinism flags,"{""TF_DETERMINISTIC_OPS"": ""1"", ""TF_CUDNN_DETERMINISTIC"": ""1""}"
+Steps per run,15000
+Report generated,2026-08-16T08:06:14.409999+00:00
+Report host,Windows-10-10.0.26200-SP0

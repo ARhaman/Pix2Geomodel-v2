@@ -1,0 +1,13 @@
+Task,Step,What changes,PA,mPA,mIoU,FWIoU,Submitted PA,Remaining PA gap
+porosity_to_facies,step0,TRIVIAL BASELINE under the submitted metric: predict nothing,0.8746,0.5000,0.4373,0.7703,0.9060,+0.0314
+porosity_to_facies,step1,"corrected: 7 classes, reservoir cells only, held-out layers",0.6151,0.3188,0.2005,0.4888,0.9060,+0.2909
+porosity_to_facies,step2,+ inactive background scored as a class,0.7141,0.4050,0.3015,0.6202,0.9060,+0.1919
+porosity_to_facies,step3,"+ submitted metric: dominant RGB channel, 3 classes",0.8843,0.6721,0.6114,0.8154,0.9060,+0.0217
+vcl_to_facies,step0,TRIVIAL BASELINE under the submitted metric: predict nothing,0.8746,0.5000,0.4373,0.7703,0.8440,-0.0306
+vcl_to_facies,step1,"corrected: 7 classes, reservoir cells only, held-out layers",0.8434,0.5204,0.4115,0.7605,0.8440,+0.0006
+vcl_to_facies,step2,+ inactive background scored as a class,0.8824,0.5774,0.4832,0.8195,0.8440,-0.0384
+vcl_to_facies,step3,"+ submitted metric: dominant RGB channel, 3 classes",0.9506,0.9386,0.8248,0.9147,0.8440,-0.1066
+permeability_to_facies,step0,TRIVIAL BASELINE under the submitted metric: predict nothing,0.8746,0.5000,0.4373,0.7703,0.7948,-0.0798
+permeability_to_facies,step1,"corrected: 7 classes, reservoir cells only, held-out layers",0.4675,0.2626,0.1322,0.3539,0.7948,+0.3273
+permeability_to_facies,step2,+ inactive background scored as a class,0.6044,0.3560,0.2421,0.5199,0.7948,+0.1904
+permeability_to_facies,step3,"+ submitted metric: dominant RGB channel, 3 classes",0.8153,0.6472,0.5148,0.7386,0.7948,-0.0205

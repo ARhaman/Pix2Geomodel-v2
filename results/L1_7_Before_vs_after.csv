@@ -1,0 +1,7 @@
+Task,Published PA,Published metric measured,New metric,New value (mean ± SD),Comparable?
+facies_to_porosity,0.9326,"argmax over RGB channels, 3 pseudo-classes",RMSE in physical units,0.0220 ± 0.0010,NO -- different quantity
+facies_to_permeability,0.7813,"argmax over RGB channels, 3 pseudo-classes",RMSE in physical units,818.2097 ± 24.0632,NO -- different quantity
+facies_to_vcl,0.6608,"argmax over RGB channels, 3 pseudo-classes",RMSE in physical units,0.0376 ± 0.0044,NO -- different quantity
+porosity_to_facies,0.9060,"argmax over RGB channels, 3 pseudo-classes",macro F1 over 7 true facies classes,0.2696 ± 0.0121,NO -- different quantity
+permeability_to_facies,0.7948,"argmax over RGB channels, 3 pseudo-classes",macro F1 over 7 true facies classes,0.1913 ± 0.0112,NO -- different quantity
+vcl_to_facies,0.8440,"argmax over RGB channels, 3 pseudo-classes",macro F1 over 7 true facies classes,0.4725 ± 0.0245,NO -- different quantity

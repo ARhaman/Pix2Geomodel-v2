@@ -1,0 +1,22 @@
+Task,Class,Facies name,Ref bodies,Pred bodies,Ref mean size,Pred mean size,Ref largest frac,Pred largest frac
+porosity_to_facies,1,Tight,116.1,476.4,298.5,51.04,0.6711,0.3291
+porosity_to_facies,2,Very Poor Sand,324.6,349.8,242.7,7.544,0.5035,0.05951
+porosity_to_facies,3,Poor Sand,486.7,1127,466.9,158.8,0.3822,0.4435
+porosity_to_facies,4,Fair Sand,12.75,3260,47.81,19.7,0.5644,0.1112
+porosity_to_facies,5,Good Sand,749.1,5924,536.9,76.07,0.4041,0.4392
+porosity_to_facies,6,Good Clean Sand,169.2,998.5,65.37,32.92,0.2331,0.01775
+porosity_to_facies,7,Very Good Sand,443.9,2176,1693,448,0.8053,0.8225
+permeability_to_facies,1,Tight,116.1,1248,298.5,148,0.6711,0.3955
+permeability_to_facies,2,Very Poor Sand,324.6,533.1,242.7,22.37,0.5035,0.1549
+permeability_to_facies,3,Poor Sand,486.7,1717,466.9,206,0.3822,0.5124
+permeability_to_facies,4,Fair Sand,12.75,4202,47.81,18.33,0.5644,0.02129
+permeability_to_facies,5,Good Sand,749.1,8542,536.9,24.41,0.4041,0.2073
+permeability_to_facies,6,Good Clean Sand,169.2,789.1,65.37,53.28,0.2331,0.08419
+permeability_to_facies,7,Very Good Sand,443.9,2389,1693,363.8,0.8053,0.8323
+vcl_to_facies,1,Tight,116.1,963.6,298.5,68.92,0.6711,0.3858
+vcl_to_facies,2,Very Poor Sand,324.6,647.2,242.7,37.25,0.5035,0.3424
+vcl_to_facies,3,Poor Sand,486.7,1385,466.9,300.9,0.3822,0.431
+vcl_to_facies,4,Fair Sand,12.75,4175,47.81,11.02,0.5644,0.03062
+vcl_to_facies,5,Good Sand,749.1,3524,536.9,137,0.4041,0.4702
+vcl_to_facies,6,Good Clean Sand,169.2,1128,65.37,43.15,0.2331,0.05437
+vcl_to_facies,7,Very Good Sand,443.9,2487,1693,351.8,0.8053,0.7582

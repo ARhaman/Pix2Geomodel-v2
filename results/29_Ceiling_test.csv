@@ -1,0 +1,4 @@
+domain,space,network_R2_layerwise,eta2_layerwise,difference,layers_above_ceiling,paired_layers,exact_paired_permutation_p,verdict
+porosity,linear,0.5754,0.6478,-0.0724,5,9,0.3242,indistinguishable from the ceiling
+vcl,linear,0.8543,0.8247,+0.0297,8,9,0.4336,indistinguishable from the ceiling
+permeability,log10,0.1127,0.2209,-0.1083,1,9,0.0273,below the ceiling

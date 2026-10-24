@@ -1,0 +1,10 @@
+Task,Seed,Cells,Median nearest dist,Mean nearest dist,% beyond 60 RGB,Median margin,% margin < 30,Pixel accuracy,Accuracy if ambiguous resolved,Headroom
+porosity_to_facies,1,14009256,1.4,8.5,3.40,94.0,3.29,0.6383,0.6850,+0.0467
+porosity_to_facies,2,14009256,0.0,6.1,2.55,136.3,2.72,0.6274,0.6657,+0.0382
+porosity_to_facies,3,14009256,1.4,10.0,3.88,130.3,4.79,0.5794,0.6432,+0.0638
+permeability_to_facies,1,14009256,1.0,9.3,4.52,136.3,4.45,0.4789,0.5438,+0.0648
+permeability_to_facies,2,14009256,1.0,10.9,4.92,134.5,5.16,0.4844,0.5557,+0.0712
+permeability_to_facies,3,14009256,2.2,10.9,4.41,94.5,5.33,0.4388,0.5114,+0.0726
+vcl_to_facies,1,14009256,3.3,11.9,5.02,125.0,4.19,0.8567,0.9200,+0.0633
+vcl_to_facies,2,14009256,2.2,11.5,4.81,124.8,5.35,0.8047,0.8812,+0.0764
+vcl_to_facies,3,14009256,7.1,18.5,7.99,103.7,8.09,0.8644,0.9834,+0.1191

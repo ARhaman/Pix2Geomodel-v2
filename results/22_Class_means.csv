@@ -1,0 +1,22 @@
+domain,space,class,train_mean,train_cells
+porosity,linear,Tight,0.10641267544239885,164888
+porosity,linear,Very Poor Sand,0.12200879009084296,29783
+porosity,linear,Poor Sand,0.14078909054590166,145455
+porosity,linear,Fair Sand,0.14291205725268497,20447
+porosity,linear,Good Sand,0.1752773602052846,79156
+porosity,linear,Good Clean Sand,0.17196684297562545,35697
+porosity,linear,Very Good Sand,0.2130270407381041,79406
+permeability,log10,Tight,-0.7575762928291692,164888
+permeability,log10,Very Poor Sand,0.5271367924012424,29783
+permeability,log10,Poor Sand,0.8965868687501936,145455
+permeability,log10,Fair Sand,0.6330943064619746,20447
+permeability,log10,Good Sand,1.7695292425820741,79156
+permeability,log10,Good Clean Sand,1.6389196407298994,35697
+permeability,log10,Very Good Sand,2.4118666190023808,79406
+vcl,linear,Tight,0.3081154442414903,164888
+vcl,linear,Very Poor Sand,0.3383921917089882,29783
+vcl,linear,Poor Sand,0.21010537934592433,145455
+vcl,linear,Fair Sand,0.09341165887301603,20447
+vcl,linear,Good Sand,0.15682104668823613,79156
+vcl,linear,Good Clean Sand,0.08047093218316799,35697
+vcl,linear,Very Good Sand,0.059121159649798465,79406

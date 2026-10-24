@@ -1,0 +1,493 @@
+{
+  "created_utc": "2026-08-13T14:38:26.564458+00:00",
+  "script": "04_export_common_legend.py",
+  "dataset": "yemen",
+  "property": "facies",
+  "legend_set": "extended",
+  "legend": null,
+  "gradient_stops": null,
+  "facies_legend": [
+    [
+      "Tight",
+      "#8B4513"
+    ],
+    [
+      "Very Poor Sand",
+      "#00FF00"
+    ],
+    [
+      "Poor Sand",
+      "#ADFF2F"
+    ],
+    [
+      "Fair Sand",
+      "#FFFF00"
+    ],
+    [
+      "Good Sand",
+      "#FFA500"
+    ],
+    [
+      "Good Clean Sand",
+      "#FF00FF"
+    ],
+    [
+      "Very Good Sand",
+      "#FF0000"
+    ]
+  ],
+  "facies_code_map": {
+    "0": 1,
+    "1": 2,
+    "2": 3,
+    "3": 4,
+    "4": 5,
+    "5": 6,
+    "6": 7
+  },
+  "lut_size": 255,
+  "background_index": 255,
+  "cube_shape": [
+    365,
+    248,
+    55
+  ],
+  "tiling": null,
+  "saturation": null,
+  "quantisation": null,
+  "n_images": 54,
+  "records": [
+    {
+      "k": 1,
+      "file": "facies_layer_1_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 2,
+      "file": "facies_layer_2_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 3,
+      "file": "facies_layer_3_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 4,
+      "file": "facies_layer_4_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 5,
+      "file": "facies_layer_5_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 6,
+      "file": "facies_layer_6_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 7,
+      "file": "facies_layer_7_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 8,
+      "file": "facies_layer_8_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 9,
+      "file": "facies_layer_9_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 10,
+      "file": "facies_layer_10_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 11,
+      "file": "facies_layer_11_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 12,
+      "file": "facies_layer_12_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 13,
+      "file": "facies_layer_13_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 14,
+      "file": "facies_layer_14_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 15,
+      "file": "facies_layer_15_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 16,
+      "file": "facies_layer_16_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 17,
+      "file": "facies_layer_17_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 18,
+      "file": "facies_layer_18_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 19,
+      "file": "facies_layer_19_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 20,
+      "file": "facies_layer_20_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 21,
+      "file": "facies_layer_21_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 22,
+      "file": "facies_layer_22_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 23,
+      "file": "facies_layer_23_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 24,
+      "file": "facies_layer_24_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 25,
+      "file": "facies_layer_25_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 26,
+      "file": "facies_layer_26_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 27,
+      "file": "facies_layer_27_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 28,
+      "file": "facies_layer_28_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 29,
+      "file": "facies_layer_29_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 30,
+      "file": "facies_layer_30_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 31,
+      "file": "facies_layer_31_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 32,
+      "file": "facies_layer_32_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 33,
+      "file": "facies_layer_33_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 34,
+      "file": "facies_layer_34_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 35,
+      "file": "facies_layer_35_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 36,
+      "file": "facies_layer_36_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 37,
+      "file": "facies_layer_37_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 38,
+      "file": "facies_layer_38_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 39,
+      "file": "facies_layer_39_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 40,
+      "file": "facies_layer_40_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 41,
+      "file": "facies_layer_41_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 42,
+      "file": "facies_layer_42_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 43,
+      "file": "facies_layer_43_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 44,
+      "file": "facies_layer_44_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 45,
+      "file": "facies_layer_45_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 46,
+      "file": "facies_layer_46_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 47,
+      "file": "facies_layer_47_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 48,
+      "file": "facies_layer_48_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 49,
+      "file": "facies_layer_49_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 50,
+      "file": "facies_layer_50_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 51,
+      "file": "facies_layer_51_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 52,
+      "file": "facies_layer_52_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 53,
+      "file": "facies_layer_53_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    },
+    {
+      "k": 54,
+      "file": "facies_layer_54_pal_2976x4380.png",
+      "px": [
+        2976,
+        4380
+      ]
+    }
+  ]
+}

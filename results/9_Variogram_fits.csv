@@ -1,0 +1,25 @@
+Task,Direction,Field,Nugget,Sill,Exponential range (cells; '>' means longer than the lags examined),h50 (cells),h50 resolved,Relative nugget gamma(1)/sill
+facies_to_porosity,0 (along grid j),reference,0,0.000998844,>96 (unresolved),20.34,yes,0.037
+facies_to_porosity,0 (along grid j),prediction,0,0.000875164,>149 (unresolved),26.05,yes,0.031
+facies_to_porosity,45 (diagonal),reference,0,0.00109397,>104 (unresolved),19.69,yes,0.041
+facies_to_porosity,45 (diagonal),prediction,0,0.000968267,>160 (unresolved),25.00,yes,0.032
+facies_to_porosity,90 (along grid i),reference,0,0.00102263,>133 (unresolved),28.23,yes,0.031
+facies_to_porosity,90 (along grid i),prediction,0,0.000800682,>160 (unresolved),32.69,yes,0.021
+facies_to_porosity,135 (anti-diagonal),reference,0,0.00123666,>160 (unresolved),30.15,yes,0.032
+facies_to_porosity,135 (anti-diagonal),prediction,0,0.000856544,>160 (unresolved),35.13,yes,0.030
+facies_to_permeability,0 (along grid j),reference,0,2.22639,>80 (unresolved),17.85,yes,0.031
+facies_to_permeability,0 (along grid j),prediction,0,0.378722,>111 (unresolved),23.28,yes,0.039
+facies_to_permeability,45 (diagonal),reference,0,2.05941,64.60,16.49,yes,0.036
+facies_to_permeability,45 (diagonal),prediction,0,0.378722,>111 (unresolved),22.88,yes,0.042
+facies_to_permeability,90 (along grid i),reference,0,2.67166,>120 (unresolved),21.53,yes,0.026
+facies_to_permeability,90 (along grid i),prediction,0,0.378722,>129 (unresolved),27.61,yes,0.033
+facies_to_permeability,135 (anti-diagonal),reference,0,2.44903,>129 (unresolved),25.37,yes,0.027
+facies_to_permeability,135 (anti-diagonal),prediction,0,0.423808,>160 (unresolved),31.13,yes,0.041
+facies_to_vcl,0 (along grid j),reference,0,0.0125957,>100 (unresolved),20.37,yes,0.036
+facies_to_vcl,0 (along grid j),prediction,0,0.0071619,>107 (unresolved),22.83,yes,0.024
+facies_to_vcl,45 (diagonal),reference,0,0.0148858,>120 (unresolved),18.87,yes,0.040
+facies_to_vcl,45 (diagonal),prediction,0,0.00786062,>111 (unresolved),21.11,yes,0.028
+facies_to_vcl,90 (along grid i),reference,0,0.0134545,>138 (unresolved),26.01,yes,0.029
+facies_to_vcl,90 (along grid i),prediction,0,0.00768594,>149 (unresolved),29.33,yes,0.021
+facies_to_vcl,135 (anti-diagonal),reference,0,0.014027,>160 (unresolved),31.74,yes,0.030
+facies_to_vcl,135 (anti-diagonal),prediction,0,0.0080353,>160 (unresolved),33.72,yes,0.026

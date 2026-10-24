@@ -1,0 +1,8 @@
+Property,Space,eta2
+vcl,linear,0.8814
+porosity,linear,0.7145
+permeability,linear,0.3097
+permeability,log10,0.213
+log10 k,facies,0.213
+log10 k,porosity septile,0.2421
+log10 k,flow-unit septile,0.8239

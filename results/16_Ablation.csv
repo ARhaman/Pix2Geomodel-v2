@@ -1,0 +1,16 @@
+Task,Arm,Metric,Baseline,Arm value,Difference,Paired layers,Exact permutation p,Verdict
+vcl_to_facies,no augmentation,pixel_accuracy,0.8434,0.8533,+0.0099,9,0.0078,arm is better
+vcl_to_facies,no augmentation,macro_F1,0.4930,0.5173,+0.0243,9,0.0039,arm is better
+vcl_to_facies,no augmentation,mIoU,0.4115,0.4381,+0.0266,9,0.0039,arm is better
+vcl_to_facies,half resolution (1024x512),pixel_accuracy,0.8434,0.8226,-0.0208,9,0.0039,arm is worse
+vcl_to_facies,half resolution (1024x512),macro_F1,0.4930,0.4920,-0.0010,9,0.6953,no detectable difference
+vcl_to_facies,half resolution (1024x512),mIoU,0.4115,0.4061,-0.0054,9,0.1016,no detectable difference
+vcl_to_facies,lambda = 10,pixel_accuracy,0.8434,0.8267,-0.0168,9,0.0312,arm is worse
+vcl_to_facies,lambda = 10,macro_F1,0.4930,0.4958,+0.0028,9,0.5625,no detectable difference
+vcl_to_facies,lambda = 10,mIoU,0.4115,0.4108,-0.0007,9,0.8711,no detectable difference
+vcl_to_facies,lambda = 1,pixel_accuracy,0.8434,0.8132,-0.0303,9,0.0078,arm is worse
+vcl_to_facies,lambda = 1,macro_F1,0.4930,0.4736,-0.0193,9,0.0391,arm is worse
+vcl_to_facies,lambda = 1,mIoU,0.4115,0.3869,-0.0246,9,0.0117,arm is worse
+vcl_to_facies,no adversarial term,pixel_accuracy,0.8434,0.8433,-0.0001,9,0.9570,no detectable difference
+vcl_to_facies,no adversarial term,macro_F1,0.4930,0.4725,-0.0205,9,0.0039,arm is worse
+vcl_to_facies,no adversarial term,mIoU,0.4115,0.3974,-0.0141,9,0.0078,arm is worse

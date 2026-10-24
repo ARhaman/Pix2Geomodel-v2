@@ -1,0 +1,22 @@
+{
+  "task": "facies_to_permeability",
+  "_comment": "source = facies (RIGHT half), target = permeability (LEFT half). Uses the EXTENDED-legend re-export.",
+  "_legend_manifest": "D:/First year/Papers/2. Pix2Geomdel.V2/Revision/export_v2/permeability/legend_manifest.json",
+  "source_dir": "D:/First year/Papers/2. Pix2Geomdel.V2/Revision/export_v2/facies",
+  "target_dir": "D:/First year/Papers/2. Pix2Geomdel.V2/Revision/export_v2/permeability",
+  "output_dir": "D:/First year/Papers/2. Pix2Geomdel.V2/Revision/splits_v2/facies_to_permeability",
+  "seed": 2025,
+  "mode": "blocked",
+  "gap": 1,
+  "ratios": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "target_on_left": true,
+  "pair_half_size": [
+    2048,
+    1024
+  ],
+  "preserve_aspect": false
+}

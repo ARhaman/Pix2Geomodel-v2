@@ -1,0 +1,43 @@
+Task,Class,Field,Bodies,Mean body (px),Largest body fraction,Bodies pred/ref
+porosity_to_facies,Tight,reference,116.1,298,0.671,
+porosity_to_facies,Tight,prediction,698.1,47,0.371,6.0x
+porosity_to_facies,Very Poor Sand,reference,324.6,243,0.504,
+porosity_to_facies,Very Poor Sand,prediction,511.4,8,0.024,1.6x
+porosity_to_facies,Poor Sand,reference,486.7,467,0.382,
+porosity_to_facies,Poor Sand,prediction,1420.1,105,0.443,2.9x
+porosity_to_facies,Fair Sand,reference,12.8,48,0.564,
+porosity_to_facies,Fair Sand,prediction,3039.2,17,0.021,238.4x
+porosity_to_facies,Good Sand,reference,749.1,537,0.404,
+porosity_to_facies,Good Sand,prediction,5650.8,101,0.687,7.5x
+porosity_to_facies,Good Clean Sand,reference,169.2,65,0.233,
+porosity_to_facies,Good Clean Sand,prediction,890.2,15,0.018,5.3x
+porosity_to_facies,Very Good Sand,reference,443.9,1693,0.805,
+porosity_to_facies,Very Good Sand,prediction,1558.9,514,0.753,3.5x
+permeability_to_facies,Tight,reference,116.1,298,0.671,
+permeability_to_facies,Tight,prediction,1375.8,91,0.417,11.8x
+permeability_to_facies,Very Poor Sand,reference,324.6,243,0.504,
+permeability_to_facies,Very Poor Sand,prediction,517.2,17,0.106,1.6x
+permeability_to_facies,Poor Sand,reference,486.7,467,0.382,
+permeability_to_facies,Poor Sand,prediction,1709.3,217,0.568,3.5x
+permeability_to_facies,Fair Sand,reference,12.8,48,0.564,
+permeability_to_facies,Fair Sand,prediction,3956.7,14,0.014,310.3x
+permeability_to_facies,Good Sand,reference,749.1,537,0.404,
+permeability_to_facies,Good Sand,prediction,6755.0,25,0.199,9.0x
+permeability_to_facies,Good Clean Sand,reference,169.2,65,0.233,
+permeability_to_facies,Good Clean Sand,prediction,1160.6,77,0.079,6.9x
+permeability_to_facies,Very Good Sand,reference,443.9,1693,0.805,
+permeability_to_facies,Very Good Sand,prediction,2707.6,308,0.831,6.1x
+vcl_to_facies,Tight,reference,116.1,298,0.671,
+vcl_to_facies,Tight,prediction,901.2,60,0.323,7.8x
+vcl_to_facies,Very Poor Sand,reference,324.6,243,0.504,
+vcl_to_facies,Very Poor Sand,prediction,633.9,48,0.439,2.0x
+vcl_to_facies,Poor Sand,reference,486.7,467,0.382,
+vcl_to_facies,Poor Sand,prediction,1484.2,211,0.381,3.0x
+vcl_to_facies,Fair Sand,reference,12.8,48,0.564,
+vcl_to_facies,Fair Sand,prediction,4108.4,2,0.009,322.2x
+vcl_to_facies,Good Sand,reference,749.1,537,0.404,
+vcl_to_facies,Good Sand,prediction,3198.7,131,0.486,4.3x
+vcl_to_facies,Good Clean Sand,reference,169.2,65,0.233,
+vcl_to_facies,Good Clean Sand,prediction,857.2,42,0.061,5.1x
+vcl_to_facies,Very Good Sand,reference,443.9,1693,0.805,
+vcl_to_facies,Very Good Sand,prediction,2084.1,353,0.732,4.7x

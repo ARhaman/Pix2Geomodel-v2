@@ -3,9 +3,9 @@
 Code, split definitions, evaluation scripts and result files for:
 
 > Al-Fakih, A., Saraih, N., Koeshidayatullah, A., Hanafy, S., Kaka, S. I.
-> *Leakage-Free Benchmarking of Pix2Geomodel Against Conventional Property Modelling for
-> Facies–Property Translation in a Faulted Cretaceous Fluvial to Marginal-Marine Reservoir.*
-> Submitted to **Results in Engineering**, 2026.
+> *Benchmarking Pix2Geomodel Against Conventional Baselines for Bidirectional
+> Facies–Property Translation in a Clastic Reservoir.*
+> Under revision, **Results in Engineering**, 2026 (RINENG-D-26-10842).
 
 This repository supersedes [`ARhaman/GeoPix`](https://github.com/ARhaman/GeoPix), which
 describes the earlier 256 × 256 workflow of Al-Fakih et al. (2026, *Geoenergy Science and
@@ -54,13 +54,40 @@ assignments cannot return a p-value below 2/512 = 0.0039.
 ## Layout
 
 ```
-src/        pipeline: extraction, export, splitting, training, prediction, evaluation, figures
-checks/     three diagnostic scripts (see below)
-splits/     split manifests, one per translation task — the reproducible split definition
-results/    per-run result tables
-figures/    published figures, 900 dpi PNG and vector PDF
-docs/       REPRODUCE.md, CHANGES_FROM_V1.md
+src/              pipeline, numbered in execution order:
+                    01_layer_level_split.py        the leakage-free split
+                    02_evaluation.py               decoders, metrics, statistical tests
+                    03_train.py  06_predict.py     training and prediction
+                    04_export_common_legend.py     export and colour legends
+                    05_run_all.py  07_report.py    orchestration and reporting
+                    08–22                          controls, ablations, baselines, figures
+                    24–30                          revision-round analyses (see below)
+                    verify_splits_v2.py            re-checks a split against its manifest
+notebooks/        01 extraction, 02 augmentation, 03 pairing and split (outputs stripped)
+configs/          one training configuration per translation task
+splits/           split manifests, one per task — the reproducible split definition
+data/legends/     the four legend manifests the reported experiments actually used
+data/synthetic/   generator and a ready-made synthetic export (see Data)
+checks/           three standalone diagnostic scripts (see below)
+results/          every table reported in the article, as CSV
+figures/          published figures, 900 dpi PNG and vector PDF
+docs/             REPRODUCE.md, SETUP.md, CHANGES_FROM_V1.md, DATA_AVAILABILITY.md
 ```
+
+### Revision-round analyses (`src/24`–`src/30`)
+
+Each of these is self-validating: it recomputes a published quantity first and refuses to
+emit anything new unless that reproduction is exact.
+
+| Script | Question it answers |
+|---|---|
+| `24_l1_forward_metrics.py` | forward metrics for the full and no-adversarial arms, in both aggregation conventions |
+| `25_baseline_layerwise.py` | the conventional baselines rescored layerwise, so they are comparable with the network |
+| `26_table7_assemble.py` | assembles Table 7 from the validated CSVs rather than by transcription |
+| `27_eta2_layerwise.py` | the facies-label information ceiling η², both conventions |
+| `28_gan_vs_l1_log10.py` | extends the GAN-vs-L1 paired test to log₁₀ permeability |
+| `29_ceiling_test.py` | paired test of the network against the ceiling itself |
+| `30_class_imbalance.py` | uniform-prior vs training-prior Bayes: does rebalancing recover rare classes? |
 
 ---
 
@@ -124,10 +151,36 @@ on CPU.
 
 ## Data
 
-The reservoir model is proprietary. `data/` documents the export format and the colour
-legends, so the pipeline can be run against any equivalent geomodel export. The split
-manifests, result tables and figures in this repository are complete, so every number in the
-paper can be checked without the raw model.
+The reservoir model is proprietary and is not redistributed. Everything needed to run and
+audit the pipeline without it is here:
+
+- **`data/legends/`** — the four legend manifests the reported experiments actually used.
+  These matter: `02_evaluation.py` carries fallback defaults (porosity 0–0.225,
+  permeability 0.01–1000 mD, VCL 0–0.50) that are **narrower** than the ranges used in the
+  paper (0–0.3, 0.0001–25000 mD, 0–1.0). A run that does not load these manifests encodes
+  on a different scale and its numbers are not comparable with the article's.
+- **`data/synthetic/`** — a generator and a ready-made synthetic export, so the whole
+  pipeline can be executed end to end by anyone.
+- **`splits/`**, **`results/`**, **`figures/`** — the split definitions, every reported
+  table as CSV, and the published figures, so every number in the paper can be checked
+  without the raw model.
+
+### Quickstart on synthetic data
+
+```bash
+python data/synthetic/make_synthetic.py          # 18 layers, 256 x 256, ~2 MB
+python src/01_layer_level_split.py --write-default-config cfg.json
+#   point source_dir/target_dir at data/synthetic/export/<property>
+#   and set pair_half_size to [256, 256]
+python src/01_layer_level_split.py --config cfg.json
+```
+
+The generator asserts that a round trip through the published decoder is exact before it
+writes anything, and it reproduces the structure the paper's conclusions turn on: the same
+seven-class rule (VCL thresholds at 0.12/0.20/0.30/0.40 with porosity breaking ties), an
+inactive boundary of comparable extent, a depth trend so contiguous-depth splitting is
+meaningful, and a rare Fair Sand class at roughly 0.3 % of area. It does **not** reproduce
+the geology, and numbers obtained from it are not comparable with the paper's.
 
 ---
 

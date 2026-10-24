@@ -1,0 +1,76 @@
+Direction,Task,Baseline,Metric,Value,Cells or layers
+forward,facies_to_porosity,random forest [linear],MAE [v/v],0.0172214,14009256
+forward,facies_to_porosity,random forest [linear],RMSE [v/v],0.0223054,14009256
+forward,facies_to_porosity,random forest [linear],R2 [v/v],0.597057,14009256
+forward,facies_to_porosity,class mean [linear],MAE [v/v],0.0228782,14009256
+forward,facies_to_porosity,class mean [linear],RMSE [v/v],0.0279695,14009256
+forward,facies_to_porosity,class mean [linear],R2 [v/v],0.366436,14009256
+forward,facies_to_porosity,class median [linear],MAE [v/v],0.0229069,14009256
+forward,facies_to_porosity,class median [linear],RMSE [v/v],0.0281008,14009256
+forward,facies_to_porosity,class median [linear],R2 [v/v],0.360474,14009256
+forward,facies_to_permeability,random forest [linear],MAE [mD],465.611,14009256
+forward,facies_to_permeability,random forest [linear],RMSE [mD],742.533,14009256
+forward,facies_to_permeability,random forest [linear],R2 [mD],0.106575,14009256
+forward,facies_to_permeability,class mean [linear],MAE [mD],484.665,14009256
+forward,facies_to_permeability,class mean [linear],RMSE [mD],785.004,14009256
+forward,facies_to_permeability,class mean [linear],R2 [mD],0.00144987,14009256
+forward,facies_to_permeability,class median [linear],MAE [mD],499.354,14009256
+forward,facies_to_permeability,class median [linear],RMSE [mD],820.983,14009256
+forward,facies_to_permeability,class median [linear],R2 [mD],-0.0921792,14009256
+forward,facies_to_vcl,random forest [linear],MAE [v/v],0.0325162,14009256
+forward,facies_to_vcl,random forest [linear],RMSE [v/v],0.0764446,14009256
+forward,facies_to_vcl,random forest [linear],R2 [v/v],0.723464,14009256
+forward,facies_to_vcl,class mean [linear],MAE [v/v],0.0433382,14009256
+forward,facies_to_vcl,class mean [linear],RMSE [v/v],0.0854709,14009256
+forward,facies_to_vcl,class mean [linear],R2 [v/v],0.654304,14009256
+forward,facies_to_vcl,class median [linear],MAE [v/v],0.0451764,14009256
+forward,facies_to_vcl,class median [linear],RMSE [v/v],0.091854,14009256
+forward,facies_to_vcl,class median [linear],R2 [v/v],0.600742,14009256
+forward,facies_to_permeability,random forest [log10],MAE [log10 mD],1.00576,14009256
+forward,facies_to_permeability,random forest [log10],RMSE [log10 mD],1.4394,14009256
+forward,facies_to_permeability,random forest [log10],R2 [log10 mD],0.134116,14009256
+forward,facies_to_permeability,class mean [log10],MAE [log10 mD],1.04981,14009256
+forward,facies_to_permeability,class mean [log10],RMSE [log10 mD],1.42618,14009256
+forward,facies_to_permeability,class mean [log10],R2 [log10 mD],0.149943,14009256
+forward,facies_to_permeability,class median [log10],MAE [log10 mD],0.988224,14009256
+forward,facies_to_permeability,class median [log10],RMSE [log10 mD],1.42433,14009256
+forward,facies_to_permeability,class median [log10],R2 [log10 mD],0.152153,14009256
+inverse,porosity_to_facies,reference,eta2_true_facies,0.714482,14009256
+inverse,porosity_to_facies,bayes,pixel_accuracy,0.64813,14009256
+inverse,porosity_to_facies,bayes,macro_F1,0.311752,14009256
+inverse,porosity_to_facies,bayes,mIoU,0.227712,14009256
+inverse,porosity_to_facies,bayes,MAE [v/v],0.0136266,14009256
+inverse,porosity_to_facies,bayes,RMSE [v/v],0.0170335,14009256
+inverse,porosity_to_facies,bayes,R2 [v/v],0.76502,14009256
+inverse,porosity_to_facies,random forest,pixel_accuracy,0.59949,14009256
+inverse,porosity_to_facies,random forest,macro_F1,0.282482,14009256
+inverse,porosity_to_facies,random forest,mIoU,0.200039,14009256
+inverse,porosity_to_facies,random forest,MAE [v/v],0.0143625,14009256
+inverse,porosity_to_facies,random forest,RMSE [v/v],0.0178478,14009256
+inverse,porosity_to_facies,random forest,R2 [v/v],0.742017,14009256
+inverse,permeability_to_facies,reference,eta2_true_facies,0.212747,14009256
+inverse,permeability_to_facies,bayes,pixel_accuracy,0.477831,14009256
+inverse,permeability_to_facies,bayes,macro_F1,0.208999,14009256
+inverse,permeability_to_facies,bayes,mIoU,0.142343,14009256
+inverse,permeability_to_facies,bayes,MAE [log10 mD],0.651932,14009256
+inverse,permeability_to_facies,bayes,RMSE [log10 mD],0.792471,14009256
+inverse,permeability_to_facies,bayes,R2 [log10 mD],0.73754,14009256
+inverse,permeability_to_facies,random forest,pixel_accuracy,0.473558,14009256
+inverse,permeability_to_facies,random forest,macro_F1,0.221384,14009256
+inverse,permeability_to_facies,random forest,mIoU,0.147843,14009256
+inverse,permeability_to_facies,random forest,MAE [log10 mD],0.613759,14009256
+inverse,permeability_to_facies,random forest,RMSE [log10 mD],0.782083,14009256
+inverse,permeability_to_facies,random forest,R2 [log10 mD],0.744375,14009256
+inverse,vcl_to_facies,reference,eta2_true_facies,0.881351,14009256
+inverse,vcl_to_facies,bayes,pixel_accuracy,0.956019,14009256
+inverse,vcl_to_facies,bayes,macro_F1,0.602205,14009256
+inverse,vcl_to_facies,bayes,mIoU,0.555027,14009256
+inverse,vcl_to_facies,bayes,MAE [v/v],0.0438624,14009256
+inverse,vcl_to_facies,bayes,RMSE [v/v],0.0857504,14009256
+inverse,vcl_to_facies,bayes,R2 [v/v],0.652039,14009256
+inverse,vcl_to_facies,random forest,pixel_accuracy,0.756408,14009256
+inverse,vcl_to_facies,random forest,macro_F1,0.620952,14009256
+inverse,vcl_to_facies,random forest,mIoU,0.547367,14009256
+inverse,vcl_to_facies,random forest,MAE [v/v],0.040726,14009256
+inverse,vcl_to_facies,random forest,RMSE [v/v],0.0849863,14009256
+inverse,vcl_to_facies,random forest,R2 [v/v],0.658213,14009256

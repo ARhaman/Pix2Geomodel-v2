@@ -1,0 +1,7 @@
+Task,Domain,Wasserstein distance,Unit
+facies_to_porosity,porosity,0.00553403,fraction
+facies_to_permeability,permeability,0.583737,mD
+facies_to_vcl,vcl,0.0210116,fraction
+porosity_to_facies,facies,0.38025,class
+permeability_to_facies,facies,0.28275,class
+vcl_to_facies,facies,0.139,class

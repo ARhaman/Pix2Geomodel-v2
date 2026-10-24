@@ -1,0 +1,5 @@
+Task,Space,Metric,GAN,L1,Difference (GAN - L1),Better arm,Paired layers,Exact paired permutation p
+facies_to_porosity,linear,R2,0.5754,0.4528,+0.1226,GAN,9,0.0039
+facies_to_permeability,linear,R2,-0.2818,-0.3577,+0.0759,GAN,9,0.0039
+facies_to_vcl,linear,R2,0.8543,0.8612,-0.0069,L1,9,0.1172
+facies_to_permeability,log10,R2,0.1127,0.1452,-0.0325,L1,9,0.1562

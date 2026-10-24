@@ -1,0 +1,396 @@
+Task,Axis,Field,From class,To class,Probability
+porosity_to_facies,along grid i (image rows),reference,Tight,Tight,0.8984
+porosity_to_facies,along grid i (image rows),reference,Tight,Very Poor Sand,0.0491
+porosity_to_facies,along grid i (image rows),reference,Tight,Poor Sand,0.0102
+porosity_to_facies,along grid i (image rows),reference,Tight,Fair Sand,0.0424
+porosity_to_facies,along grid i (image rows),reference,Very Poor Sand,Tight,0.0083
+porosity_to_facies,along grid i (image rows),reference,Very Poor Sand,Very Poor Sand,0.9483
+porosity_to_facies,along grid i (image rows),reference,Very Poor Sand,Poor Sand,0.0433
+porosity_to_facies,along grid i (image rows),reference,Poor Sand,Very Poor Sand,0.0100
+porosity_to_facies,along grid i (image rows),reference,Poor Sand,Poor Sand,0.9641
+porosity_to_facies,along grid i (image rows),reference,Poor Sand,Good Sand,0.0249
+porosity_to_facies,along grid i (image rows),reference,Fair Sand,Tight,0.0073
+porosity_to_facies,along grid i (image rows),reference,Fair Sand,Poor Sand,0.0133
+porosity_to_facies,along grid i (image rows),reference,Fair Sand,Fair Sand,0.7574
+porosity_to_facies,along grid i (image rows),reference,Fair Sand,Good Sand,0.0175
+porosity_to_facies,along grid i (image rows),reference,Fair Sand,Good Clean Sand,0.0934
+porosity_to_facies,along grid i (image rows),reference,Good Sand,Poor Sand,0.0158
+porosity_to_facies,along grid i (image rows),reference,Good Sand,Good Sand,0.9607
+porosity_to_facies,along grid i (image rows),reference,Good Sand,Good Clean Sand,0.0016
+porosity_to_facies,along grid i (image rows),reference,Good Sand,Very Good Sand,0.0217
+porosity_to_facies,along grid i (image rows),reference,Good Clean Sand,Poor Sand,0.0014
+porosity_to_facies,along grid i (image rows),reference,Good Clean Sand,Fair Sand,0.0023
+porosity_to_facies,along grid i (image rows),reference,Good Clean Sand,Good Sand,0.0545
+porosity_to_facies,along grid i (image rows),reference,Good Clean Sand,Good Clean Sand,0.8903
+porosity_to_facies,along grid i (image rows),reference,Good Clean Sand,Very Good Sand,0.0513
+porosity_to_facies,along grid i (image rows),reference,Very Good Sand,Good Sand,0.0133
+porosity_to_facies,along grid i (image rows),reference,Very Good Sand,Very Good Sand,0.9857
+porosity_to_facies,along grid i (image rows),prediction,Tight,Tight,0.7385
+porosity_to_facies,along grid i (image rows),prediction,Tight,Very Poor Sand,0.0296
+porosity_to_facies,along grid i (image rows),prediction,Tight,Poor Sand,0.0909
+porosity_to_facies,along grid i (image rows),prediction,Tight,Fair Sand,0.0036
+porosity_to_facies,along grid i (image rows),prediction,Tight,Good Sand,0.1142
+porosity_to_facies,along grid i (image rows),prediction,Tight,Good Clean Sand,0.0019
+porosity_to_facies,along grid i (image rows),prediction,Tight,Very Good Sand,0.0212
+porosity_to_facies,along grid i (image rows),prediction,Very Poor Sand,Tight,0.0484
+porosity_to_facies,along grid i (image rows),prediction,Very Poor Sand,Very Poor Sand,0.6496
+porosity_to_facies,along grid i (image rows),prediction,Very Poor Sand,Poor Sand,0.1479
+porosity_to_facies,along grid i (image rows),prediction,Very Poor Sand,Fair Sand,0.0779
+porosity_to_facies,along grid i (image rows),prediction,Very Poor Sand,Good Sand,0.0761
+porosity_to_facies,along grid i (image rows),prediction,Poor Sand,Tight,0.0078
+porosity_to_facies,along grid i (image rows),prediction,Poor Sand,Very Poor Sand,0.0047
+porosity_to_facies,along grid i (image rows),prediction,Poor Sand,Poor Sand,0.9500
+porosity_to_facies,along grid i (image rows),prediction,Poor Sand,Fair Sand,0.0096
+porosity_to_facies,along grid i (image rows),prediction,Poor Sand,Good Sand,0.0272
+porosity_to_facies,along grid i (image rows),prediction,Fair Sand,Very Poor Sand,0.0051
+porosity_to_facies,along grid i (image rows),prediction,Fair Sand,Poor Sand,0.0200
+porosity_to_facies,along grid i (image rows),prediction,Fair Sand,Fair Sand,0.8001
+porosity_to_facies,along grid i (image rows),prediction,Fair Sand,Good Sand,0.1273
+porosity_to_facies,along grid i (image rows),prediction,Fair Sand,Very Good Sand,0.0463
+porosity_to_facies,along grid i (image rows),prediction,Good Sand,Poor Sand,0.0054
+porosity_to_facies,along grid i (image rows),prediction,Good Sand,Fair Sand,0.0132
+porosity_to_facies,along grid i (image rows),prediction,Good Sand,Good Sand,0.9589
+porosity_to_facies,along grid i (image rows),prediction,Good Sand,Good Clean Sand,0.0023
+porosity_to_facies,along grid i (image rows),prediction,Good Sand,Very Good Sand,0.0192
+porosity_to_facies,along grid i (image rows),prediction,Good Clean Sand,Poor Sand,0.0084
+porosity_to_facies,along grid i (image rows),prediction,Good Clean Sand,Fair Sand,0.0111
+porosity_to_facies,along grid i (image rows),prediction,Good Clean Sand,Good Sand,0.1193
+porosity_to_facies,along grid i (image rows),prediction,Good Clean Sand,Good Clean Sand,0.7650
+porosity_to_facies,along grid i (image rows),prediction,Good Clean Sand,Very Good Sand,0.0960
+porosity_to_facies,along grid i (image rows),prediction,Very Good Sand,Fair Sand,0.0019
+porosity_to_facies,along grid i (image rows),prediction,Very Good Sand,Good Sand,0.0174
+porosity_to_facies,along grid i (image rows),prediction,Very Good Sand,Good Clean Sand,0.0028
+porosity_to_facies,along grid i (image rows),prediction,Very Good Sand,Very Good Sand,0.9778
+porosity_to_facies,along grid j (image cols),reference,Tight,Tight,0.8501
+porosity_to_facies,along grid j (image cols),reference,Tight,Very Poor Sand,0.0370
+porosity_to_facies,along grid j (image cols),reference,Tight,Poor Sand,0.0497
+porosity_to_facies,along grid j (image cols),reference,Tight,Fair Sand,0.0019
+porosity_to_facies,along grid j (image cols),reference,Tight,Good Clean Sand,0.0613
+porosity_to_facies,along grid j (image cols),reference,Very Poor Sand,Tight,0.0124
+porosity_to_facies,along grid j (image cols),reference,Very Poor Sand,Very Poor Sand,0.9176
+porosity_to_facies,along grid j (image cols),reference,Very Poor Sand,Poor Sand,0.0696
+porosity_to_facies,along grid j (image cols),reference,Poor Sand,Tight,0.0013
+porosity_to_facies,along grid j (image cols),reference,Poor Sand,Very Poor Sand,0.0150
+porosity_to_facies,along grid j (image cols),reference,Poor Sand,Poor Sand,0.9437
+porosity_to_facies,along grid j (image cols),reference,Poor Sand,Good Sand,0.0396
+porosity_to_facies,along grid j (image cols),reference,Fair Sand,Tight,0.0061
+porosity_to_facies,along grid j (image cols),reference,Fair Sand,Poor Sand,0.0182
+porosity_to_facies,along grid j (image cols),reference,Fair Sand,Fair Sand,0.7224
+porosity_to_facies,along grid j (image cols),reference,Fair Sand,Good Sand,0.0292
+porosity_to_facies,along grid j (image cols),reference,Fair Sand,Good Clean Sand,0.0989
+porosity_to_facies,along grid j (image cols),reference,Fair Sand,Very Good Sand,0.0141
+porosity_to_facies,along grid j (image cols),reference,Good Sand,Poor Sand,0.0233
+porosity_to_facies,along grid j (image cols),reference,Good Sand,Good Sand,0.9390
+porosity_to_facies,along grid j (image cols),reference,Good Sand,Good Clean Sand,0.0025
+porosity_to_facies,along grid j (image cols),reference,Good Sand,Very Good Sand,0.0347
+porosity_to_facies,along grid j (image cols),reference,Good Clean Sand,Poor Sand,0.0030
+porosity_to_facies,along grid j (image cols),reference,Good Clean Sand,Fair Sand,0.0039
+porosity_to_facies,along grid j (image cols),reference,Good Clean Sand,Good Sand,0.0834
+porosity_to_facies,along grid j (image cols),reference,Good Clean Sand,Good Clean Sand,0.8360
+porosity_to_facies,along grid j (image cols),reference,Good Clean Sand,Very Good Sand,0.0731
+porosity_to_facies,along grid j (image cols),reference,Very Good Sand,Good Sand,0.0202
+porosity_to_facies,along grid j (image cols),reference,Very Good Sand,Good Clean Sand,0.0013
+porosity_to_facies,along grid j (image cols),reference,Very Good Sand,Very Good Sand,0.9782
+porosity_to_facies,along grid j (image cols),prediction,Tight,Tight,0.7209
+porosity_to_facies,along grid j (image cols),prediction,Tight,Very Poor Sand,0.0088
+porosity_to_facies,along grid j (image cols),prediction,Tight,Poor Sand,0.1214
+porosity_to_facies,along grid j (image cols),prediction,Tight,Fair Sand,0.0057
+porosity_to_facies,along grid j (image cols),prediction,Tight,Good Sand,0.1283
+porosity_to_facies,along grid j (image cols),prediction,Tight,Very Good Sand,0.0144
+porosity_to_facies,along grid j (image cols),prediction,Very Poor Sand,Tight,0.0293
+porosity_to_facies,along grid j (image cols),prediction,Very Poor Sand,Very Poor Sand,0.5758
+porosity_to_facies,along grid j (image cols),prediction,Very Poor Sand,Poor Sand,0.2111
+porosity_to_facies,along grid j (image cols),prediction,Very Poor Sand,Fair Sand,0.1296
+porosity_to_facies,along grid j (image cols),prediction,Very Poor Sand,Good Sand,0.0537
+porosity_to_facies,along grid j (image cols),prediction,Poor Sand,Tight,0.0104
+porosity_to_facies,along grid j (image cols),prediction,Poor Sand,Very Poor Sand,0.0060
+porosity_to_facies,along grid j (image cols),prediction,Poor Sand,Poor Sand,0.9269
+porosity_to_facies,along grid j (image cols),prediction,Poor Sand,Fair Sand,0.0123
+porosity_to_facies,along grid j (image cols),prediction,Poor Sand,Good Sand,0.0425
+porosity_to_facies,along grid j (image cols),prediction,Poor Sand,Good Clean Sand,0.0019
+porosity_to_facies,along grid j (image cols),prediction,Fair Sand,Tight,0.0012
+porosity_to_facies,along grid j (image cols),prediction,Fair Sand,Very Poor Sand,0.0072
+porosity_to_facies,along grid j (image cols),prediction,Fair Sand,Poor Sand,0.0290
+porosity_to_facies,along grid j (image cols),prediction,Fair Sand,Fair Sand,0.6681
+porosity_to_facies,along grid j (image cols),prediction,Fair Sand,Good Sand,0.2184
+porosity_to_facies,along grid j (image cols),prediction,Fair Sand,Good Clean Sand,0.0051
+porosity_to_facies,along grid j (image cols),prediction,Fair Sand,Very Good Sand,0.0709
+porosity_to_facies,along grid j (image cols),prediction,Good Sand,Poor Sand,0.0078
+porosity_to_facies,along grid j (image cols),prediction,Good Sand,Fair Sand,0.0152
+porosity_to_facies,along grid j (image cols),prediction,Good Sand,Good Sand,0.9401
+porosity_to_facies,along grid j (image cols),prediction,Good Sand,Good Clean Sand,0.0034
+porosity_to_facies,along grid j (image cols),prediction,Good Sand,Very Good Sand,0.0325
+porosity_to_facies,along grid j (image cols),prediction,Good Clean Sand,Very Poor Sand,0.0011
+porosity_to_facies,along grid j (image cols),prediction,Good Clean Sand,Poor Sand,0.0142
+porosity_to_facies,along grid j (image cols),prediction,Good Clean Sand,Fair Sand,0.0597
+porosity_to_facies,along grid j (image cols),prediction,Good Clean Sand,Good Sand,0.1772
+porosity_to_facies,along grid j (image cols),prediction,Good Clean Sand,Good Clean Sand,0.6608
+porosity_to_facies,along grid j (image cols),prediction,Good Clean Sand,Very Good Sand,0.0868
+porosity_to_facies,along grid j (image cols),prediction,Very Good Sand,Fair Sand,0.0084
+porosity_to_facies,along grid j (image cols),prediction,Very Good Sand,Good Sand,0.0228
+porosity_to_facies,along grid j (image cols),prediction,Very Good Sand,Good Clean Sand,0.0035
+porosity_to_facies,along grid j (image cols),prediction,Very Good Sand,Very Good Sand,0.9652
+permeability_to_facies,along grid i (image rows),reference,Tight,Tight,0.8984
+permeability_to_facies,along grid i (image rows),reference,Tight,Very Poor Sand,0.0491
+permeability_to_facies,along grid i (image rows),reference,Tight,Poor Sand,0.0102
+permeability_to_facies,along grid i (image rows),reference,Tight,Fair Sand,0.0424
+permeability_to_facies,along grid i (image rows),reference,Very Poor Sand,Tight,0.0083
+permeability_to_facies,along grid i (image rows),reference,Very Poor Sand,Very Poor Sand,0.9483
+permeability_to_facies,along grid i (image rows),reference,Very Poor Sand,Poor Sand,0.0433
+permeability_to_facies,along grid i (image rows),reference,Poor Sand,Very Poor Sand,0.0100
+permeability_to_facies,along grid i (image rows),reference,Poor Sand,Poor Sand,0.9641
+permeability_to_facies,along grid i (image rows),reference,Poor Sand,Good Sand,0.0249
+permeability_to_facies,along grid i (image rows),reference,Fair Sand,Tight,0.0073
+permeability_to_facies,along grid i (image rows),reference,Fair Sand,Poor Sand,0.0133
+permeability_to_facies,along grid i (image rows),reference,Fair Sand,Fair Sand,0.7574
+permeability_to_facies,along grid i (image rows),reference,Fair Sand,Good Sand,0.0175
+permeability_to_facies,along grid i (image rows),reference,Fair Sand,Good Clean Sand,0.0934
+permeability_to_facies,along grid i (image rows),reference,Good Sand,Poor Sand,0.0158
+permeability_to_facies,along grid i (image rows),reference,Good Sand,Good Sand,0.9607
+permeability_to_facies,along grid i (image rows),reference,Good Sand,Good Clean Sand,0.0016
+permeability_to_facies,along grid i (image rows),reference,Good Sand,Very Good Sand,0.0217
+permeability_to_facies,along grid i (image rows),reference,Good Clean Sand,Poor Sand,0.0014
+permeability_to_facies,along grid i (image rows),reference,Good Clean Sand,Fair Sand,0.0023
+permeability_to_facies,along grid i (image rows),reference,Good Clean Sand,Good Sand,0.0545
+permeability_to_facies,along grid i (image rows),reference,Good Clean Sand,Good Clean Sand,0.8903
+permeability_to_facies,along grid i (image rows),reference,Good Clean Sand,Very Good Sand,0.0513
+permeability_to_facies,along grid i (image rows),reference,Very Good Sand,Good Sand,0.0133
+permeability_to_facies,along grid i (image rows),reference,Very Good Sand,Very Good Sand,0.9857
+permeability_to_facies,along grid i (image rows),prediction,Tight,Tight,0.8990
+permeability_to_facies,along grid i (image rows),prediction,Tight,Very Poor Sand,0.0061
+permeability_to_facies,along grid i (image rows),prediction,Tight,Poor Sand,0.0448
+permeability_to_facies,along grid i (image rows),prediction,Tight,Fair Sand,0.0019
+permeability_to_facies,along grid i (image rows),prediction,Tight,Good Sand,0.0293
+permeability_to_facies,along grid i (image rows),prediction,Tight,Good Clean Sand,0.0050
+permeability_to_facies,along grid i (image rows),prediction,Tight,Very Good Sand,0.0139
+permeability_to_facies,along grid i (image rows),prediction,Very Poor Sand,Tight,0.0106
+permeability_to_facies,along grid i (image rows),prediction,Very Poor Sand,Very Poor Sand,0.7878
+permeability_to_facies,along grid i (image rows),prediction,Very Poor Sand,Poor Sand,0.1805
+permeability_to_facies,along grid i (image rows),prediction,Very Poor Sand,Fair Sand,0.0175
+permeability_to_facies,along grid i (image rows),prediction,Very Poor Sand,Good Sand,0.0025
+permeability_to_facies,along grid i (image rows),prediction,Poor Sand,Tight,0.0131
+permeability_to_facies,along grid i (image rows),prediction,Poor Sand,Very Poor Sand,0.0045
+permeability_to_facies,along grid i (image rows),prediction,Poor Sand,Poor Sand,0.9568
+permeability_to_facies,along grid i (image rows),prediction,Poor Sand,Fair Sand,0.0127
+permeability_to_facies,along grid i (image rows),prediction,Poor Sand,Good Sand,0.0109
+permeability_to_facies,along grid i (image rows),prediction,Poor Sand,Good Clean Sand,0.0020
+permeability_to_facies,along grid i (image rows),prediction,Fair Sand,Poor Sand,0.0751
+permeability_to_facies,along grid i (image rows),prediction,Fair Sand,Fair Sand,0.7320
+permeability_to_facies,along grid i (image rows),prediction,Fair Sand,Good Sand,0.1471
+permeability_to_facies,along grid i (image rows),prediction,Fair Sand,Good Clean Sand,0.0028
+permeability_to_facies,along grid i (image rows),prediction,Fair Sand,Very Good Sand,0.0417
+permeability_to_facies,along grid i (image rows),prediction,Good Sand,Tight,0.0119
+permeability_to_facies,along grid i (image rows),prediction,Good Sand,Poor Sand,0.0258
+permeability_to_facies,along grid i (image rows),prediction,Good Sand,Fair Sand,0.0632
+permeability_to_facies,along grid i (image rows),prediction,Good Sand,Good Sand,0.8308
+permeability_to_facies,along grid i (image rows),prediction,Good Sand,Good Clean Sand,0.0106
+permeability_to_facies,along grid i (image rows),prediction,Good Sand,Very Good Sand,0.0575
+permeability_to_facies,along grid i (image rows),prediction,Good Clean Sand,Tight,0.0024
+permeability_to_facies,along grid i (image rows),prediction,Good Clean Sand,Poor Sand,0.0065
+permeability_to_facies,along grid i (image rows),prediction,Good Clean Sand,Fair Sand,0.0021
+permeability_to_facies,along grid i (image rows),prediction,Good Clean Sand,Good Sand,0.0167
+permeability_to_facies,along grid i (image rows),prediction,Good Clean Sand,Good Clean Sand,0.9023
+permeability_to_facies,along grid i (image rows),prediction,Good Clean Sand,Very Good Sand,0.0694
+permeability_to_facies,along grid i (image rows),prediction,Very Good Sand,Fair Sand,0.0026
+permeability_to_facies,along grid i (image rows),prediction,Very Good Sand,Good Sand,0.0097
+permeability_to_facies,along grid i (image rows),prediction,Very Good Sand,Good Clean Sand,0.0085
+permeability_to_facies,along grid i (image rows),prediction,Very Good Sand,Very Good Sand,0.9788
+permeability_to_facies,along grid j (image cols),reference,Tight,Tight,0.8501
+permeability_to_facies,along grid j (image cols),reference,Tight,Very Poor Sand,0.0370
+permeability_to_facies,along grid j (image cols),reference,Tight,Poor Sand,0.0497
+permeability_to_facies,along grid j (image cols),reference,Tight,Fair Sand,0.0019
+permeability_to_facies,along grid j (image cols),reference,Tight,Good Clean Sand,0.0613
+permeability_to_facies,along grid j (image cols),reference,Very Poor Sand,Tight,0.0124
+permeability_to_facies,along grid j (image cols),reference,Very Poor Sand,Very Poor Sand,0.9176
+permeability_to_facies,along grid j (image cols),reference,Very Poor Sand,Poor Sand,0.0696
+permeability_to_facies,along grid j (image cols),reference,Poor Sand,Tight,0.0013
+permeability_to_facies,along grid j (image cols),reference,Poor Sand,Very Poor Sand,0.0150
+permeability_to_facies,along grid j (image cols),reference,Poor Sand,Poor Sand,0.9437
+permeability_to_facies,along grid j (image cols),reference,Poor Sand,Good Sand,0.0396
+permeability_to_facies,along grid j (image cols),reference,Fair Sand,Tight,0.0061
+permeability_to_facies,along grid j (image cols),reference,Fair Sand,Poor Sand,0.0182
+permeability_to_facies,along grid j (image cols),reference,Fair Sand,Fair Sand,0.7224
+permeability_to_facies,along grid j (image cols),reference,Fair Sand,Good Sand,0.0292
+permeability_to_facies,along grid j (image cols),reference,Fair Sand,Good Clean Sand,0.0989
+permeability_to_facies,along grid j (image cols),reference,Fair Sand,Very Good Sand,0.0141
+permeability_to_facies,along grid j (image cols),reference,Good Sand,Poor Sand,0.0233
+permeability_to_facies,along grid j (image cols),reference,Good Sand,Good Sand,0.9390
+permeability_to_facies,along grid j (image cols),reference,Good Sand,Good Clean Sand,0.0025
+permeability_to_facies,along grid j (image cols),reference,Good Sand,Very Good Sand,0.0347
+permeability_to_facies,along grid j (image cols),reference,Good Clean Sand,Poor Sand,0.0030
+permeability_to_facies,along grid j (image cols),reference,Good Clean Sand,Fair Sand,0.0039
+permeability_to_facies,along grid j (image cols),reference,Good Clean Sand,Good Sand,0.0834
+permeability_to_facies,along grid j (image cols),reference,Good Clean Sand,Good Clean Sand,0.8360
+permeability_to_facies,along grid j (image cols),reference,Good Clean Sand,Very Good Sand,0.0731
+permeability_to_facies,along grid j (image cols),reference,Very Good Sand,Good Sand,0.0202
+permeability_to_facies,along grid j (image cols),reference,Very Good Sand,Good Clean Sand,0.0013
+permeability_to_facies,along grid j (image cols),reference,Very Good Sand,Very Good Sand,0.9782
+permeability_to_facies,along grid j (image cols),prediction,Tight,Tight,0.8647
+permeability_to_facies,along grid j (image cols),prediction,Tight,Very Poor Sand,0.0025
+permeability_to_facies,along grid j (image cols),prediction,Tight,Poor Sand,0.0666
+permeability_to_facies,along grid j (image cols),prediction,Tight,Fair Sand,0.0038
+permeability_to_facies,along grid j (image cols),prediction,Tight,Good Sand,0.0398
+permeability_to_facies,along grid j (image cols),prediction,Tight,Good Clean Sand,0.0102
+permeability_to_facies,along grid j (image cols),prediction,Tight,Very Good Sand,0.0124
+permeability_to_facies,along grid j (image cols),prediction,Very Poor Sand,Tight,0.0121
+permeability_to_facies,along grid j (image cols),prediction,Very Poor Sand,Very Poor Sand,0.7020
+permeability_to_facies,along grid j (image cols),prediction,Very Poor Sand,Poor Sand,0.2594
+permeability_to_facies,along grid j (image cols),prediction,Very Poor Sand,Fair Sand,0.0206
+permeability_to_facies,along grid j (image cols),prediction,Very Poor Sand,Good Sand,0.0014
+permeability_to_facies,along grid j (image cols),prediction,Very Poor Sand,Good Clean Sand,0.0044
+permeability_to_facies,along grid j (image cols),prediction,Poor Sand,Tight,0.0223
+permeability_to_facies,along grid j (image cols),prediction,Poor Sand,Very Poor Sand,0.0053
+permeability_to_facies,along grid j (image cols),prediction,Poor Sand,Poor Sand,0.9400
+permeability_to_facies,along grid j (image cols),prediction,Poor Sand,Fair Sand,0.0136
+permeability_to_facies,along grid j (image cols),prediction,Poor Sand,Good Sand,0.0147
+permeability_to_facies,along grid j (image cols),prediction,Poor Sand,Good Clean Sand,0.0037
+permeability_to_facies,along grid j (image cols),prediction,Fair Sand,Tight,0.0010
+permeability_to_facies,along grid j (image cols),prediction,Fair Sand,Very Poor Sand,0.0019
+permeability_to_facies,along grid j (image cols),prediction,Fair Sand,Poor Sand,0.0959
+permeability_to_facies,along grid j (image cols),prediction,Fair Sand,Fair Sand,0.6564
+permeability_to_facies,along grid j (image cols),prediction,Fair Sand,Good Sand,0.1591
+permeability_to_facies,along grid j (image cols),prediction,Fair Sand,Good Clean Sand,0.0153
+permeability_to_facies,along grid j (image cols),prediction,Fair Sand,Very Good Sand,0.0703
+permeability_to_facies,along grid j (image cols),prediction,Good Sand,Tight,0.0142
+permeability_to_facies,along grid j (image cols),prediction,Good Sand,Poor Sand,0.0294
+permeability_to_facies,along grid j (image cols),prediction,Good Sand,Fair Sand,0.0700
+permeability_to_facies,along grid j (image cols),prediction,Good Sand,Good Sand,0.7954
+permeability_to_facies,along grid j (image cols),prediction,Good Sand,Good Clean Sand,0.0248
+permeability_to_facies,along grid j (image cols),prediction,Good Sand,Very Good Sand,0.0661
+permeability_to_facies,along grid j (image cols),prediction,Good Clean Sand,Tight,0.0032
+permeability_to_facies,along grid j (image cols),prediction,Good Clean Sand,Poor Sand,0.0060
+permeability_to_facies,along grid j (image cols),prediction,Good Clean Sand,Fair Sand,0.0110
+permeability_to_facies,along grid j (image cols),prediction,Good Clean Sand,Good Sand,0.0311
+permeability_to_facies,along grid j (image cols),prediction,Good Clean Sand,Good Clean Sand,0.8241
+permeability_to_facies,along grid j (image cols),prediction,Good Clean Sand,Very Good Sand,0.1245
+permeability_to_facies,along grid j (image cols),prediction,Very Good Sand,Fair Sand,0.0048
+permeability_to_facies,along grid j (image cols),prediction,Very Good Sand,Good Sand,0.0118
+permeability_to_facies,along grid j (image cols),prediction,Very Good Sand,Good Clean Sand,0.0134
+permeability_to_facies,along grid j (image cols),prediction,Very Good Sand,Very Good Sand,0.9694
+vcl_to_facies,along grid i (image rows),reference,Tight,Tight,0.8984
+vcl_to_facies,along grid i (image rows),reference,Tight,Very Poor Sand,0.0491
+vcl_to_facies,along grid i (image rows),reference,Tight,Poor Sand,0.0102
+vcl_to_facies,along grid i (image rows),reference,Tight,Fair Sand,0.0424
+vcl_to_facies,along grid i (image rows),reference,Very Poor Sand,Tight,0.0083
+vcl_to_facies,along grid i (image rows),reference,Very Poor Sand,Very Poor Sand,0.9483
+vcl_to_facies,along grid i (image rows),reference,Very Poor Sand,Poor Sand,0.0433
+vcl_to_facies,along grid i (image rows),reference,Poor Sand,Very Poor Sand,0.0100
+vcl_to_facies,along grid i (image rows),reference,Poor Sand,Poor Sand,0.9641
+vcl_to_facies,along grid i (image rows),reference,Poor Sand,Good Sand,0.0249
+vcl_to_facies,along grid i (image rows),reference,Fair Sand,Tight,0.0073
+vcl_to_facies,along grid i (image rows),reference,Fair Sand,Poor Sand,0.0133
+vcl_to_facies,along grid i (image rows),reference,Fair Sand,Fair Sand,0.7574
+vcl_to_facies,along grid i (image rows),reference,Fair Sand,Good Sand,0.0175
+vcl_to_facies,along grid i (image rows),reference,Fair Sand,Good Clean Sand,0.0934
+vcl_to_facies,along grid i (image rows),reference,Good Sand,Poor Sand,0.0158
+vcl_to_facies,along grid i (image rows),reference,Good Sand,Good Sand,0.9607
+vcl_to_facies,along grid i (image rows),reference,Good Sand,Good Clean Sand,0.0016
+vcl_to_facies,along grid i (image rows),reference,Good Sand,Very Good Sand,0.0217
+vcl_to_facies,along grid i (image rows),reference,Good Clean Sand,Poor Sand,0.0014
+vcl_to_facies,along grid i (image rows),reference,Good Clean Sand,Fair Sand,0.0023
+vcl_to_facies,along grid i (image rows),reference,Good Clean Sand,Good Sand,0.0545
+vcl_to_facies,along grid i (image rows),reference,Good Clean Sand,Good Clean Sand,0.8903
+vcl_to_facies,along grid i (image rows),reference,Good Clean Sand,Very Good Sand,0.0513
+vcl_to_facies,along grid i (image rows),reference,Very Good Sand,Good Sand,0.0133
+vcl_to_facies,along grid i (image rows),reference,Very Good Sand,Very Good Sand,0.9857
+vcl_to_facies,along grid i (image rows),prediction,Tight,Tight,0.7474
+vcl_to_facies,along grid i (image rows),prediction,Tight,Very Poor Sand,0.0548
+vcl_to_facies,along grid i (image rows),prediction,Tight,Poor Sand,0.0665
+vcl_to_facies,along grid i (image rows),prediction,Tight,Fair Sand,0.0212
+vcl_to_facies,along grid i (image rows),prediction,Tight,Good Sand,0.0400
+vcl_to_facies,along grid i (image rows),prediction,Tight,Good Clean Sand,0.0035
+vcl_to_facies,along grid i (image rows),prediction,Tight,Very Good Sand,0.0666
+vcl_to_facies,along grid i (image rows),prediction,Very Poor Sand,Tight,0.0166
+vcl_to_facies,along grid i (image rows),prediction,Very Poor Sand,Very Poor Sand,0.8990
+vcl_to_facies,along grid i (image rows),prediction,Very Poor Sand,Poor Sand,0.0816
+vcl_to_facies,along grid i (image rows),prediction,Very Poor Sand,Fair Sand,0.0025
+vcl_to_facies,along grid i (image rows),prediction,Poor Sand,Tight,0.0043
+vcl_to_facies,along grid i (image rows),prediction,Poor Sand,Very Poor Sand,0.0109
+vcl_to_facies,along grid i (image rows),prediction,Poor Sand,Poor Sand,0.9498
+vcl_to_facies,along grid i (image rows),prediction,Poor Sand,Fair Sand,0.0053
+vcl_to_facies,along grid i (image rows),prediction,Poor Sand,Good Sand,0.0297
+vcl_to_facies,along grid i (image rows),prediction,Fair Sand,Tight,0.0015
+vcl_to_facies,along grid i (image rows),prediction,Fair Sand,Poor Sand,0.1702
+vcl_to_facies,along grid i (image rows),prediction,Fair Sand,Fair Sand,0.4464
+vcl_to_facies,along grid i (image rows),prediction,Fair Sand,Good Sand,0.3638
+vcl_to_facies,along grid i (image rows),prediction,Fair Sand,Very Good Sand,0.0167
+vcl_to_facies,along grid i (image rows),prediction,Good Sand,Tight,0.0018
+vcl_to_facies,along grid i (image rows),prediction,Good Sand,Poor Sand,0.0225
+vcl_to_facies,along grid i (image rows),prediction,Good Sand,Fair Sand,0.0114
+vcl_to_facies,along grid i (image rows),prediction,Good Sand,Good Sand,0.9324
+vcl_to_facies,along grid i (image rows),prediction,Good Sand,Very Good Sand,0.0311
+vcl_to_facies,along grid i (image rows),prediction,Good Clean Sand,Good Sand,0.0152
+vcl_to_facies,along grid i (image rows),prediction,Good Clean Sand,Good Clean Sand,0.8573
+vcl_to_facies,along grid i (image rows),prediction,Good Clean Sand,Very Good Sand,0.1263
+vcl_to_facies,along grid i (image rows),prediction,Very Good Sand,Tight,0.0021
+vcl_to_facies,along grid i (image rows),prediction,Very Good Sand,Good Sand,0.0187
+vcl_to_facies,along grid i (image rows),prediction,Very Good Sand,Good Clean Sand,0.0078
+vcl_to_facies,along grid i (image rows),prediction,Very Good Sand,Very Good Sand,0.9711
+vcl_to_facies,along grid j (image cols),reference,Tight,Tight,0.8501
+vcl_to_facies,along grid j (image cols),reference,Tight,Very Poor Sand,0.0370
+vcl_to_facies,along grid j (image cols),reference,Tight,Poor Sand,0.0497
+vcl_to_facies,along grid j (image cols),reference,Tight,Fair Sand,0.0019
+vcl_to_facies,along grid j (image cols),reference,Tight,Good Clean Sand,0.0613
+vcl_to_facies,along grid j (image cols),reference,Very Poor Sand,Tight,0.0124
+vcl_to_facies,along grid j (image cols),reference,Very Poor Sand,Very Poor Sand,0.9176
+vcl_to_facies,along grid j (image cols),reference,Very Poor Sand,Poor Sand,0.0696
+vcl_to_facies,along grid j (image cols),reference,Poor Sand,Tight,0.0013
+vcl_to_facies,along grid j (image cols),reference,Poor Sand,Very Poor Sand,0.0150
+vcl_to_facies,along grid j (image cols),reference,Poor Sand,Poor Sand,0.9437
+vcl_to_facies,along grid j (image cols),reference,Poor Sand,Good Sand,0.0396
+vcl_to_facies,along grid j (image cols),reference,Fair Sand,Tight,0.0061
+vcl_to_facies,along grid j (image cols),reference,Fair Sand,Poor Sand,0.0182
+vcl_to_facies,along grid j (image cols),reference,Fair Sand,Fair Sand,0.7224
+vcl_to_facies,along grid j (image cols),reference,Fair Sand,Good Sand,0.0292
+vcl_to_facies,along grid j (image cols),reference,Fair Sand,Good Clean Sand,0.0989
+vcl_to_facies,along grid j (image cols),reference,Fair Sand,Very Good Sand,0.0141
+vcl_to_facies,along grid j (image cols),reference,Good Sand,Poor Sand,0.0233
+vcl_to_facies,along grid j (image cols),reference,Good Sand,Good Sand,0.9390
+vcl_to_facies,along grid j (image cols),reference,Good Sand,Good Clean Sand,0.0025
+vcl_to_facies,along grid j (image cols),reference,Good Sand,Very Good Sand,0.0347
+vcl_to_facies,along grid j (image cols),reference,Good Clean Sand,Poor Sand,0.0030
+vcl_to_facies,along grid j (image cols),reference,Good Clean Sand,Fair Sand,0.0039
+vcl_to_facies,along grid j (image cols),reference,Good Clean Sand,Good Sand,0.0834
+vcl_to_facies,along grid j (image cols),reference,Good Clean Sand,Good Clean Sand,0.8360
+vcl_to_facies,along grid j (image cols),reference,Good Clean Sand,Very Good Sand,0.0731
+vcl_to_facies,along grid j (image cols),reference,Very Good Sand,Good Sand,0.0202
+vcl_to_facies,along grid j (image cols),reference,Very Good Sand,Good Clean Sand,0.0013
+vcl_to_facies,along grid j (image cols),reference,Very Good Sand,Very Good Sand,0.9782
+vcl_to_facies,along grid j (image cols),prediction,Tight,Tight,0.7072
+vcl_to_facies,along grid j (image cols),prediction,Tight,Very Poor Sand,0.0874
+vcl_to_facies,along grid j (image cols),prediction,Tight,Poor Sand,0.0773
+vcl_to_facies,along grid j (image cols),prediction,Tight,Fair Sand,0.0164
+vcl_to_facies,along grid j (image cols),prediction,Tight,Good Sand,0.0643
+vcl_to_facies,along grid j (image cols),prediction,Tight,Good Clean Sand,0.0017
+vcl_to_facies,along grid j (image cols),prediction,Tight,Very Good Sand,0.0457
+vcl_to_facies,along grid j (image cols),prediction,Very Poor Sand,Tight,0.0236
+vcl_to_facies,along grid j (image cols),prediction,Very Poor Sand,Very Poor Sand,0.8302
+vcl_to_facies,along grid j (image cols),prediction,Very Poor Sand,Poor Sand,0.1360
+vcl_to_facies,along grid j (image cols),prediction,Very Poor Sand,Fair Sand,0.0091
+vcl_to_facies,along grid j (image cols),prediction,Poor Sand,Tight,0.0067
+vcl_to_facies,along grid j (image cols),prediction,Poor Sand,Very Poor Sand,0.0136
+vcl_to_facies,along grid j (image cols),prediction,Poor Sand,Poor Sand,0.9277
+vcl_to_facies,along grid j (image cols),prediction,Poor Sand,Fair Sand,0.0082
+vcl_to_facies,along grid j (image cols),prediction,Poor Sand,Good Sand,0.0435
+vcl_to_facies,along grid j (image cols),prediction,Fair Sand,Tight,0.0028
+vcl_to_facies,along grid j (image cols),prediction,Fair Sand,Very Poor Sand,0.0062
+vcl_to_facies,along grid j (image cols),prediction,Fair Sand,Poor Sand,0.1740
+vcl_to_facies,along grid j (image cols),prediction,Fair Sand,Fair Sand,0.1935
+vcl_to_facies,along grid j (image cols),prediction,Fair Sand,Good Sand,0.4411
+vcl_to_facies,along grid j (image cols),prediction,Fair Sand,Good Clean Sand,0.0365
+vcl_to_facies,along grid j (image cols),prediction,Fair Sand,Very Good Sand,0.1460
+vcl_to_facies,along grid j (image cols),prediction,Good Sand,Tight,0.0021
+vcl_to_facies,along grid j (image cols),prediction,Good Sand,Poor Sand,0.0338
+vcl_to_facies,along grid j (image cols),prediction,Good Sand,Fair Sand,0.0138
+vcl_to_facies,along grid j (image cols),prediction,Good Sand,Good Sand,0.9012
+vcl_to_facies,along grid j (image cols),prediction,Good Sand,Good Clean Sand,0.0038
+vcl_to_facies,along grid j (image cols),prediction,Good Sand,Very Good Sand,0.0451
+vcl_to_facies,along grid j (image cols),prediction,Good Clean Sand,Fair Sand,0.0052
+vcl_to_facies,along grid j (image cols),prediction,Good Clean Sand,Good Sand,0.0319
+vcl_to_facies,along grid j (image cols),prediction,Good Clean Sand,Good Clean Sand,0.7726
+vcl_to_facies,along grid j (image cols),prediction,Good Clean Sand,Very Good Sand,0.1887
+vcl_to_facies,along grid j (image cols),prediction,Very Good Sand,Tight,0.0027
+vcl_to_facies,along grid j (image cols),prediction,Very Good Sand,Fair Sand,0.0011
+vcl_to_facies,along grid j (image cols),prediction,Very Good Sand,Good Sand,0.0282
+vcl_to_facies,along grid j (image cols),prediction,Very Good Sand,Good Clean Sand,0.0103
+vcl_to_facies,along grid j (image cols),prediction,Very Good Sand,Very Good Sand,0.9576

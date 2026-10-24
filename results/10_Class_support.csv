@@ -1,0 +1,22 @@
+Class index,Class,Split,Layers with class,Layers total,Mean area fraction,Max area fraction
+1,Tight,train,36,36,0.297298,0.894946
+1,Tight,val,7,7,0.163378,0.396512
+1,Tight,test,9,9,0.075724,0.516209
+2,Very Poor Sand,train,31,36,0.053563,0.223980
+2,Very Poor Sand,val,7,7,0.104925,0.199184
+2,Very Poor Sand,test,9,9,0.039637,0.143977
+3,Poor Sand,train,36,36,0.262073,0.383226
+3,Poor Sand,val,7,7,0.216280,0.351763
+3,Poor Sand,test,9,9,0.129257,0.266643
+4,Fair Sand,train,36,36,0.036691,0.254081
+4,Fair Sand,val,7,7,0.000209,0.000369
+4,Fair Sand,test,8,9,0.000276,0.001846
+5,Good Sand,train,35,36,0.142857,0.329841
+5,Good Sand,val,7,7,0.217105,0.290935
+5,Good Sand,test,9,9,0.254873,0.322983
+6,Good Clean Sand,train,36,36,0.064584,0.268509
+6,Good Clean Sand,val,7,7,0.020073,0.042892
+6,Good Clean Sand,test,9,9,0.006110,0.023519
+7,Very Good Sand,train,36,36,0.142934,0.416240
+7,Very Good Sand,val,7,7,0.278030,0.521534
+7,Very Good Sand,test,9,9,0.494123,0.631958

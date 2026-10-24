@@ -1,0 +1,33 @@
+Task,Metric,MATCHED,SHUFFLED,CONSTANT,retained under SHUFFLED,verdict
+porosity_to_facies,pixel_accuracy,0.6151,0.4293,0.2105,70%,partly positional
+porosity_to_facies,macro_F1,0.3044,0.1812,0.1024,60%,partly positional
+porosity_to_facies,mIoU,0.2191,0.1165,0.0600,53%,partly positional
+permeability_to_facies,pixel_accuracy,0.4675,0.3682,0.1384,79%,partly positional
+permeability_to_facies,macro_F1,0.2150,0.1589,0.0593,74%,partly positional
+permeability_to_facies,mIoU,0.1449,0.1006,0.0330,69%,partly positional
+vcl_to_facies,pixel_accuracy,0.8435,0.4205,0.5103,50%,input-driven
+vcl_to_facies,macro_F1,0.5632,0.2088,0.1287,37%,input-driven
+vcl_to_facies,mIoU,0.4768,0.1315,0.0954,28%,input-driven
+
+Task,Class,Facies name,F1 matched,F1 shuffled,F1 constant,retained,verdict
+porosity_to_facies,1,Tight,0.4585,0.1522,0.0125,33%,input-driven
+porosity_to_facies,2,Very Poor Sand,0.0145,0.0052,0.1013,n/a,not recovered (matched F1 < 0.05)
+porosity_to_facies,3,Poor Sand,0.3232,0.1743,0.1693,54%,partly positional
+porosity_to_facies,4,Fair Sand,0.0015,0.0005,0.0006,n/a,not recovered (matched F1 < 0.05)
+porosity_to_facies,5,Good Sand,0.4815,0.3082,0.3923,64%,partly positional
+porosity_to_facies,6,Good Clean Sand,0.0282,0.0109,0.0124,n/a,not recovered (matched F1 < 0.05)
+porosity_to_facies,7,Very Good Sand,0.8236,0.6169,0.0283,75%,partly positional
+permeability_to_facies,1,Tight,0.2387,0.1325,0.0729,56%,partly positional
+permeability_to_facies,2,Very Poor Sand,0.0281,0.0132,0.0229,n/a,not recovered (matched F1 < 0.05)
+permeability_to_facies,3,Poor Sand,0.3073,0.2098,0.2142,68%,partly positional
+permeability_to_facies,4,Fair Sand,0.0005,0.0009,0.0002,n/a,not recovered (matched F1 < 0.05)
+permeability_to_facies,5,Good Sand,0.1861,0.1499,0.0960,81%,POSITIONAL
+permeability_to_facies,6,Good Clean Sand,0.0200,0.0160,0.0002,n/a,not recovered (matched F1 < 0.05)
+permeability_to_facies,7,Very Good Sand,0.7245,0.5898,0.0086,81%,POSITIONAL
+vcl_to_facies,1,Tight,0.8635,0.1982,0.2238,23%,input-driven
+vcl_to_facies,2,Very Poor Sand,0.5108,0.0770,0.0000,15%,input-driven
+vcl_to_facies,3,Poor Sand,0.7972,0.2591,0.0000,33%,input-driven
+vcl_to_facies,4,Fair Sand,0.0011,0.0003,0.0000,n/a,not recovered (matched F1 < 0.05)
+vcl_to_facies,5,Good Sand,0.8008,0.3174,0.0000,40%,input-driven
+vcl_to_facies,6,Good Clean Sand,0.0391,0.0110,0.0020,n/a,not recovered (matched F1 < 0.05)
+vcl_to_facies,7,Very Good Sand,0.9297,0.5988,0.6749,64%,partly positional

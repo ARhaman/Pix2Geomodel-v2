@@ -1,0 +1,4 @@
+Task A,Task B,Metric,mean difference,p (paired permutation),n paired layers
+porosity_to_facies,permeability_to_facies,macro_F1,+0.0797,0.0090,9
+porosity_to_facies,vcl_to_facies,macro_F1,-0.2207,0.0038,9
+permeability_to_facies,vcl_to_facies,macro_F1,-0.3003,0.0038,9

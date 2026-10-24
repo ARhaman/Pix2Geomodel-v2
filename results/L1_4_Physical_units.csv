@@ -1,0 +1,4 @@
+Task,Unit,MAE,RMSE,R2,Encoding-floor RMSE,Model / floor ratio
+facies_to_porosity,fraction,0.0182 ± 0.0007,0.0220 ± 0.0010,0.4528 ± 0.0559,0.000341191,64.5x
+facies_to_permeability,mD,521.4520 ± 16.3883,818.2097 ± 24.0632,-0.3577 ± 0.0845,89.1119,9.2x
+facies_to_vcl,fraction,0.0269 ± 0.0030,0.0376 ± 0.0044,0.8612 ± 0.0421,0.0011373,33.0x

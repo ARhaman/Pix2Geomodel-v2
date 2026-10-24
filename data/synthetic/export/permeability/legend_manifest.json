@@ -1,0 +1,8 @@
+{
+  "vmin": 0.0001,
+  "vmax": 25000.0,
+  "scale": "log10",
+  "unit": "mD",
+  "zero_class": true,
+  "note": "synthetic dataset; these are the legend ranges used in the paper and they override the fallback defaults in src/02_evaluation.py"
+}

@@ -1,0 +1,7 @@
+{
+  "vmin": 0.0,
+  "vmax": 1.0,
+  "scale": "linear",
+  "unit": "fraction",
+  "note": "synthetic dataset; these are the legend ranges used in the paper and they override the fallback defaults in src/02_evaluation.py"
+}

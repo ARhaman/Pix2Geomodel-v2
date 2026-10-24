@@ -1,0 +1,13 @@
+Task,Direction,Reference sill,Predicted sill,Predicted / reference,Variance retained (%)
+facies_to_permeability,0 (along grid j),2.18889,0.327291,0.150,15.0
+facies_to_permeability,135 (anti-diagonal),2.013,0.332594,0.165,16.5
+facies_to_permeability,45 (diagonal),2.01191,0.327289,0.163,16.3
+facies_to_permeability,90 (along grid i),2.22556,0.284498,0.128,12.8
+facies_to_porosity,0 (along grid j),0.000925892,0.000696052,0.752,75.2
+facies_to_porosity,135 (anti-diagonal),0.00100506,0.000725478,0.722,72.2
+facies_to_porosity,45 (diagonal),0.000990453,0.000734042,0.741,74.1
+facies_to_porosity,90 (along grid i),0.000790966,0.000595743,0.753,75.3
+facies_to_vcl,0 (along grid j),0.0118595,0.00645008,0.544,54.4
+facies_to_vcl,135 (anti-diagonal),0.0116338,0.00665734,0.572,57.2
+facies_to_vcl,45 (diagonal),0.0131626,0.00700059,0.532,53.2
+facies_to_vcl,90 (along grid i),0.0100474,0.00558248,0.556,55.6
